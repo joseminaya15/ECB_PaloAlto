@@ -41,7 +41,7 @@
                                     </div>
                                     <div class="col-xs col-sm-6 col-md-4">
                                         <div class="js-input">
-                                            <label for="text">Middle Namw</label>
+                                            <label for="text">Middle Name</label>
                                             <input type="text" id="middlename" onkeyup="verificarDatos(event);">
                                         </div>
                                     </div>
@@ -132,7 +132,7 @@
                                     </div>
                                     <div class="col-xs col-sm-6 col-md-4">
                                         <div class="js-input js-select">
-                                            <select name="gender" id="noMayorista" title="Gender"> 
+                                            <select name="gender" id="gender" title="Gender"> 
                                                 <option value="Male">Male</option>
                                                 <option value="Female">Female</option>
                                             </select>
