@@ -101,7 +101,7 @@
             </div>
         </div>
     </section>
-    <section id="agenda" class="js-section">
+    <section id="agenda" class="js-section js-white">
         <div class="js-container">
             <h2 class="js-title">AGENDA</h2>
             <ul class="nav nav-tabs" role="tablist">
@@ -272,7 +272,7 @@
             </div>
         </div>
     </section>
-    <section id="principal" class="js-section">
+    <section id="register" class="js-section js-white">
         <div class="js-container">
             <div class="accordion" id="jsaccordion">
                 <div class="card">
