@@ -28,11 +28,11 @@ function sendInformation(){
 	var checkoutdate 		 = $('#checkoutdate').val();
 	var need 				 = $('#need').val();
 	var departureorigin 	 = $('#departureorigin').val();
-	var departuredestination = $('#departuredestination').val();
+	// var departuredestination = $('#departuredestination').val();
 	var departuredate 		 = $('#departuredate').val();
 	var departuretime 		 = $('#departuretime').val();
 	var returnorigin 		 = $('#returnorigin').val();
-	var returndestination 	 = $('#returndestination').val();
+	// var returndestination 	 = $('#returndestination').val();
 	var returndate 			 = $('#returndate').val();
 	var returntime 			 = $('#returntime').val();
 	var preference1 		 = $('#preference1').val();
@@ -41,12 +41,72 @@ function sendInformation(){
 	var rewards2 			 = $('#rewards2').val();
 	var preference3 		 = $('#preference3').val();
 	var rewards3 			 = $('#rewards3').val();
-	var confirmation 		 = $('#confirmation').val();
-	var modifidate 			 = $('#modifidate').val();
-	var cancellationdate 	 = $('#cancellationdate').val();
+	// var confirmation 		 = $('#confirmation').val();
+	// var modifidate 			 = $('#modifidate').val();
+	// var cancellationdate 	 = $('#cancellationdate').val();
 	//Emergency Contact
 	var contact 			 = $('#contact').val();
 	var phone 				 = $('#phone').val();
 	var relationship 		 = $('#relationship').val();
 	var specifications 		 = $('#specifications').val();
+
+	$.ajax({
+		data : {primerNombre	: firstname,
+				segundoNombre	: middlename,
+				apellidos		: lastname,
+				empresa			: company,
+				cargo			: job,
+				telefono 		: mobile,
+				correo			: email,
+				ciudad 			: city,
+				pais 			: country,
+				//
+				nuPasaporte		: passport,
+				fechaEmision	: issuedate,
+				fechaExpiro		: expiredate,
+				paisEmisor		: issuecountry,
+				genero			: gender,
+				fechaCumple		: birthdate,
+				nacionalidad	: nationality,
+				ciudadReferen	: residence,
+				flgInvitacion	: inputRadio,
+				asientoPrefere	: seating,
+				tallaPolo		: shirt,
+				//
+				reconocimiento	: acknowledgement,
+				restriccionDieta: restrictions,
+				checkInDate 	: checkindate,
+				checkOutDate 	: checkoutdate,
+				necesidadEspe	: need,
+				origenPartida	: departureorigin,
+				destinoPartida	: departuredestination,
+				diaVueloOrigen	: departuredate,
+				HoraVueloOrigen	: departuretime,
+				origenRetorno	: returnorigin,
+				destinoRetorno	: returndestination,
+				diaVueloRetorno	: returndate,
+				HoraVueloRetorno: returntime,
+				aerolinea1		: preference1,
+				codigoAero1		: rewards1,
+				aerolinea2		: preference2,
+				codigoAero2		: rewards2,
+				aerolinea3		: preference3,
+				codigoAero3		: rewards3,
+				confirmacion	: confirmation,
+				ultimoDiaModifica: modifidate,
+				ultimoDiaCancela: cancellationdate,
+				//
+				nombreContacto	: contact,
+				telefonoContac	: phone,
+				relacion		: relationship,
+				especificacion	: specifications },
+		url  : 'registro/register',
+		type : 'POST'
+	}).done(function(data){
+		try {
+			data = JSON.parse(data);
+		} catch (err) {
+			msj('error', err.message);
+		}
+	});
 }
