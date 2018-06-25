@@ -32,11 +32,10 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item active"><a class="nav-link" href="#">Home</a></li>
-                <li class="nav-item"><a class="nav-link" href="#">Link</a></li>
-                <li class="nav-item"><a class="nav-link" href="#">Link</a></li>
-                <li class="nav-item"><a class="nav-link" href="#">Link</a></li>
-                <li class="nav-item"><a class="nav-link" href="#">Link</a></li>
-                <li class="nav-item"><a class="nav-link" href="#">Link</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Hotel Information</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Agenda</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Visa Information</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Register</a></li>
             </ul>
         </div>
     </nav>
@@ -47,10 +46,10 @@
                 <div class="logo-home">
                     <img src="<?php echo RUTA_IMG?>logo/logo_blanco.png">
                 </div>
-                <div class="contenido-evento">
-                    <h2>HPE Latin America Hybrid IT Bootcamp</h2>
-                    <p>January 30th to February 1st, 2018</p>
-                    <div class="contenido-buttons">
+                <div class="js-contenido">
+                    <h2>HPE Caribbean Executive Briefing</h2>
+                    <p>July 24th to 26th, 2018</p>
+                    <div class="js-contenido__buttons">
                         <a href="#sponsor" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect link">Sponsors</a>
                         <a href="#agenda" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect link background-pintado">SCHEDULE</a>
                         <a href="#logistics" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect link">Logistics</a>
@@ -59,7 +58,198 @@
                 </div>
             </div>
         </div>
-        <a href="#sponsor" class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect button-down link"><i class="mdi mdi-keyboard_arrow_down"></i></a>
+    </section>
+    <section id="hotel" class="js-section">
+        <div class="js-container">
+            <h2 class="js-title">HOTEL INFORMATION</h2>
+            <div class="js-information">
+                <h2>Welcome to Your New San Jose Home</h2>
+                <p>Explore northern California from Hyatt Place San Jose/Downtown. Our hotel is walking distance from the train station and around the corner from major thoroughfares. Business travelers are minutes from companies and convention centers while families are just miles from shopping on Santana Row or campus tours of Stanford.</p>
+                <div class="js-flex--start">
+                    <div class="js-information__left">
+                        <div class="js-information__left--imagen"></div>
+                    </div>
+                    <div class="js-information__right">
+                        <h2>Hyatt Place San Jose/Downtown</h2>
+                        <a href="tel:+14089980400">+1 408 998 0400</a>
+                        <p>282 Almaden Boulevard</p>
+                        <p>San Jose, California, 95113</p>
+                        <p>USA</p>
+                        <a href="https://sanjose.place.hyatt.com/en/hotel/home.html" target="_blank">WebSite</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="agenda" class="js-section">
+        <div class="js-container">
+            <h2 class="js-title">AGENDA</h2>
+            <ul class="nav nav-tabs" id="myTab" role="tablist">
+                <li class="nav-item">
+                    <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Profile</a>
+                </li>
+            </ul>
+            <div class="tab-content" id="myTabContent">
+                <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                    <div class="table-responsive">
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th></th>
+                                    <th></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                    <div class="table-responsive">
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th></th>
+                                    <th></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="visa" class="js-section">
+        <div class="js-container">
+            <h2 class="js-title">VISA INFORMATION</h2>
+            <div class="js-information">
+                <p>A passport is required for international trips. A valid passport is a government requirement and immigration officials will deny entry to travelers without one.</p>
+                <strong>A valid passport must meet these specifications:</strong>
+                <ul>
+                    <li>Have a valid expiration date more than 6 months from the trip return date</li>
+                    <li>Is in good condition and is not frayed or torn</li>
+                    <li>Have a minimum of 2 blank pages for Immigration stamps</li>
+                </ul>
+                <p>These requirements are for a Passport holder from United States of America. If the trip includes connection points through additional countries or you hold a passport from another country, <a href="https://www.us-immigration.com/?referrer=bing-cpc-52871152-us%20visa%20application~118322938440$m=bb-b$g=4199004321-11466653020&utm_source=bing&utm_medium=cpc&utm_campaign=Visa%20-%20SRCH&utm_term=us%20visa%20application&utm_content=%2Bus%20%2Bvisa%20%2Bapplication" target="_blank">click here</a> to visit the American Immigration Center website to verify the passport or visa requirements.</p>
+            </div>
+        </div>
     </section>
     <!-- <section id="agenda">
         <div class="fondo-imagen"></div>

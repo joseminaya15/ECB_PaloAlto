@@ -104,12 +104,25 @@ body
 	overflow-y scroll
 	font-family $regular
 	color #000000
-	background-color #FFFFFF
+	background-color #EFEFEF
+img
+	width 100%
+p
+	margin 0
+strong
+	font-family $medium
 .js-section
 	position relative
 	padding 40px 20px
+.js-title
+	text-align center
+	font-size 32px
+	font-family $medium
 .js-flex
 	flexCenter()
+	justify-content center
+.js-flex--start
+	flexStart()
 	justify-content center
 .js-height
 	height 100vh
@@ -260,6 +273,33 @@ body
 .navbar-brand
 	img
 		max-width 200px
+/*CLASES PROYECTO*/
+.js-contenido
+	text-align center
+	color #FFFFFF
+	max-width 600px
+	h2
+		font-size 60px
+		line-height 60px
+		font-family $bold
+	p
+		font-size 32px
+.js-information__left
+	flexCenter()
+	justify-content flex-start
+	position relative
+	width 100%
+	max-width 300px
+	.js-information__left--imagen
+		absolute()
+		background url(../img/fondo/hotel.jpg) no-repeat center center
+		background-size cover
+		height 200px
+.js-information__right
+	padding 20px
+	width 100%
+	max-width calc(100% - 300px)
+/*MODAL*/
 .modal
 	&.fade
 		.modal-dialog
