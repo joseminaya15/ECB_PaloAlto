@@ -190,7 +190,6 @@ function sendInformation(){
 	}
 
 	//CONTINUA AQUI
-
 	//Contacto emergencia
 	if(contact == null || contact == '') {
 		msj('error', 'Contact name must be completed');
