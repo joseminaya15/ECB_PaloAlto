@@ -10,7 +10,7 @@
     <meta name="date"                   content="July 23, 2018"/>
     <meta name="language"               content="es">
     <meta name="theme-color"            content="#000000">
-	<title>HPE Cariibbean ECB Palo Alto</title>
+	<title>HPE Caribbean ECB Palo Alto</title>
     <link rel="shortcut icon" href="<?php echo RUTA_IMG?>logo/favicon.ico">
     <link rel="stylesheet"    href="<?php echo RUTA_PLUGINS?>toaster/toastr.min.css?v=<?php echo time();?>">
     <link rel="stylesheet"    href="<?php echo RUTA_PLUGINS?>mdl/material.min.css?v=<?php echo time();?>">
@@ -34,11 +34,14 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#principal"><img src="<?php echo RUTA_IMG?>logo/hpe-intel.png"></a>
+                <a class="navbar-brand" href="#principal">
+                    <img src="<?php echo RUTA_IMG?>logo/hpe-intel.png">
+                    <small>Intel Inside&reg;. New Possibilities Outside</small>
+                </a>
             </div>
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
-                    <li class="nav-item active"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item active"><a class="link" href="#home">Home</a></li>
                     <li class="nav-item"><a class="link" href="#hotel">Hotel Information</a></li>
                     <li class="nav-item"><a class="link" href="#agenda">Agenda</a></li>
                     <li class="nav-item"><a class="link" href="#visa">Visa Information</a></li>
@@ -272,7 +275,7 @@
     <section id="register" class="js-section js-white">
         <div class="js-container">
             <div class="js-title">
-                <h2>Register</h2>
+                <h2>REGISTER</h2>
             </div>
             <div class="panel-group" id="accordion" role="tablist">
                 <div class="js-card panel panel-default">
