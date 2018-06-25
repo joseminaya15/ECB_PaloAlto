@@ -316,6 +316,6 @@ $('a.link[href^="#"]').click(function(e) {
  		"top" : NaN
  	}).top;
  	$('html, body').animate({
- 		scrollTop : y
+ 		scrollTop : (y - 40)
  	}, 'slow');
 });

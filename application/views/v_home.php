@@ -39,10 +39,10 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li class="nav-item active"><a class="nav-link" href="#home">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#hotel">Hotel Information</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#agenda">Agenda</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#visa">Visa Information</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#register">Register</a></li>
+                    <li class="nav-item"><a class="link" href="#hotel">Hotel Information</a></li>
+                    <li class="nav-item"><a class="link" href="#agenda">Agenda</a></li>
+                    <li class="nav-item"><a class="link" href="#visa">Visa Information</a></li>
+                    <li class="nav-item"><a class="link" href="#register">Register</a></li>
                 </ul>
             </div>
         </div>
@@ -51,15 +51,12 @@
         <div class="js-fondo"></div>
         <div class="js-container">
             <div class="js-home js-height js-flex">
-                <!-- <div class="logo-home">
-                    <img src="<?php echo RUTA_IMG?>logo/logo_blanco.png">
-                </div> -->
                 <div class="js-contenido">
                     <h2>HPE Caribbean Executive Briefing</h2>
                     <p>July 23th to 26th, 2018</p>
                     <div class="js-contenido__buttons">
-                        <a href="#register" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect link">REGISTER HERE</a>
-                        <a href="#agenda" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect link">AGENDA</a>
+                        <a href="#register" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect link js-button">REGISTER HERE</a>
+                        <a href="#agenda" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect link js-button js-button--default">AGENDA</a>
                     </div>
                 </div>
             </div>
@@ -661,8 +658,8 @@
                     </div>
                 </div>
             </div>
-            <div class="js-section--button">
-                <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="sendInformation()">Send</button>
+            <div class="js-section--button text-right">
+                <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect js-button" onclick="sendInformation()">Send</button>
             </div>
         </div>
     </section>

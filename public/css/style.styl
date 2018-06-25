@@ -3,6 +3,7 @@ $bold      = 'MetricBold'
 $medium    = 'MetricSemiBold'
 $light     = 'MetricLight'
 $color   = #FDB913
+$default = #01a982
 flexCenter()
 	display flex
 	display -webkit-flex
@@ -233,6 +234,19 @@ strong
 		line-height 18px
 		font-family $regular
 		font-weight 100
+.js-button
+	background-color $default !important
+	text-decoration none !important
+	font-size 16px
+	color #FFFFFF !important
+	border 2px solid $default
+	margin 10px
+	font-family $medium
+	width 100%
+	max-width 160px
+	&.js-button--default
+		background-color transparent !important
+		border 2px solid #FFFFFF
 .mdl-radio__inner-circle
 	background #4983B6
 .mdl-checkbox
