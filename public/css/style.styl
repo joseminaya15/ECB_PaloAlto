@@ -314,6 +314,13 @@ footer
 				background-color transparent !important
 .navbar-brand
 	padding 0
+	position relative
+	small
+		position absolute
+		right 0
+		margin-right -230px
+		margin-top -25px
+		color #FFFFFF
 	img
 		transitionMaxWidth()
 		max-width 200px
@@ -415,5 +422,9 @@ table
 	.navbar-brand
 		img
 			max-width 250px
+@media (max-width: 1000px)
+	.navbar-brand
+		small
+			display none
 		
 				

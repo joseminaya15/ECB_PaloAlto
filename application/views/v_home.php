@@ -34,7 +34,10 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#principal"><img src="<?php echo RUTA_IMG?>logo/hpe-intel.png"></a>
+                <a class="navbar-brand" href="#principal">
+                    <img src="<?php echo RUTA_IMG?>logo/hpe-intel.png">
+                    <small>Intel Inside&reg;. New Possibilities Outside</small>
+                </a>
             </div>
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
