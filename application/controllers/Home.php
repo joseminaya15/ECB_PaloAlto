@@ -34,11 +34,11 @@ class Home extends CI_Controller {
 			$pais			= $this->input->post('pais');
 			//tabla persona
 			$nuPasaporte 	= $this->input->post('nuPasaporte');
-			$fechaEmision 	= $this->input->post('fechaEmision');
-			$fechaExpiro 	= $this->input->post('fechaExpiro');
+			$fechaEmision 	= implode("-", array_reverse(explode("/", $this->input->post('fechaEmision'))));
+			$fechaExpiro 	= implode("-", array_reverse(explode("/", $this->input->post('fechaExpiro'))));
 			$paisEmisor 	= $this->input->post('paisEmisor');
 			$genero 		= $this->input->post('genero');
-			$fechaCumple 	= $this->input->post('fechaCumple');
+			$fechaCumple 	= implode("-", array_reverse(explode("/", $this->input->post('fechaCumple'))));
 			$nacionalidad 	= $this->input->post('nacionalidad');
 			$ciudadReferen 	= $this->input->post('ciudadReferen');
 			$flgInvitacion 	= $this->input->post('flgInvitacion');
@@ -47,16 +47,20 @@ class Home extends CI_Controller {
 			//tabla itinerario
 			$reconocimiento   = $this->input->post('reconocimiento');
 			$restriccionDieta = $this->input->post('restriccionDieta');
-			$checkInDate 	  = $this->input->post('checkInDate');
-			$checkOutDate	  = $this->input->post('checkOutDate');
+			$checkInDate 	  = implode("-", array_reverse(explode("/", $this->input->post('checkInDate'))));
+			$checkOutDate	  = implode("-", array_reverse(explode("/", $this->input->post('checkOutDate'))));
+
 			$necesidadEspe    = $this->input->post('necesidadEspe');
 			$origenPartida    = $this->input->post('origenPartida');
 			$destinoPartida   = $this->input->post('destinoPartida');
-			$diaVueloOrigen   = $this->input->post('diaVueloOrigen');
+			$diaVueloOrigen   = implode("-", array_reverse(explode("/", $this->input->post('diaVueloOrigen'))));
 			$HoraVueloOrigen  = $this->input->post('HoraVueloOrigen');
+
+			/*print_r($HoraVueloOrigen);
+			exit;*/
 			$origenRetorno    = $this->input->post('origenRetorno');
 			$destinoRetorno   = $this->input->post('destinoRetorno');
-			$diaVueloRetorno  = $this->input->post('diaVueloRetorno');
+			$diaVueloRetorno  = implode("-", array_reverse(explode("/", $this->input->post('diaVueloRetorno'))));
 			$HoraVueloRetorno = $this->input->post('HoraVueloRetorno');
 			$aerolinea1		  = $this->input->post('aerolinea1');
 			$codigoAero1 	  = $this->input->post('codigoAero1');
@@ -82,7 +86,7 @@ class Home extends CI_Controller {
 								   'correo' 		=> $correo,
 								   'ciudad' 		=> $ciudad,
 								   'pais' 			=> $pais);
-			$datoInsert  = $this->M_solicitud->insertarDatos($insertNegocio, 'negocio');
+			$datoInsert  = $this->M_Solicitud->insertarDatos($insertNegocio, 'negocio');
 			$insertPersona = array('nu_pasaporte' 		=> $nuPasaporte,
 								   'fecha_emision'		=> $fechaEmision,
 								   'fecha_expiro'		=> $fechaExpiro,
@@ -123,7 +127,7 @@ class Home extends CI_Controller {
 									'relacion' 	 => $relacion,
 									'adicional'  => $especificacion,
 									'_id_negocio'=> $datoInsert['id_negocio']);
-			$this->M_solicitud->insertarDemasDatos($insertPersona, 'persona', $insertItinerario, 'itinerario', $insertContacto, 'contacto_emergencia');
+			$this->M_Solicitud->insertarDemasDatos($insertPersona, 'persona', $insertItinerario, 'itinerario', $insertContacto, 'contacto_emergencia');
           $data['msj']   = $datoInsert['msj'];
           $data['error'] = $datoInsert['error'];
 		} catch(Exception $ex) {

@@ -12,6 +12,8 @@ class M_solicitud extends  CI_Model{
             throw new Exception('Error al insertar');
             $data['error'] = EXIT_ERROR;
         }
+        /*echo $this->db->last_query();
+        exit;*/
         return array("error" => EXIT_SUCCESS, "msj" => MSJ_INS, "id_negocio" => $sql);
     }
 

@@ -1,5 +1,6 @@
 function sendInformation(){
 	//Business
+	var check_invi 			 = '';
 	var firstname 			 = $('#firstname').val();
 	var middlename 			 = $('#middlename').val();
 	var lastname 			 = $('#lastname').val();
@@ -18,7 +19,12 @@ function sendInformation(){
 	var birthdate 			 = $('#birthdate').val();
 	var nationality 		 = $('#nationality').val();
 	var residence 			 = $('#residence').val();
-	var inputRadio			 = 'falta';
+	var inputRadio			 = $('#option-1').is(':checked');
+	if(inputRadio == true){
+		check_invi = 1;
+	}else {
+		check_invi = 2;
+	}
 	var seating 			 = $('#seating').val();
 	var shirt 				 = $('#shirt').val();
 	//Itinerary
@@ -28,11 +34,11 @@ function sendInformation(){
 	var checkoutdate 		 = $('#checkoutdate').val();
 	var need 				 = $('#need').val();
 	var departureorigin 	 = $('#departureorigin').val();
-	var departuredestination = $('#departuredestination').val();//quitado
+	var departuredestination = /*$('#departuredestination').val()*/'aa';//quitado
 	var departuredate 		 = $('#departuredate').val();
 	var departuretime 		 = $('#departuretime').val();
 	var returnorigin 		 = $('#returnorigin').val();
-	var returndestination 	 = $('#returndestination').val();
+	var returndestination 	 = /*$('#returndestination').val()*/'aa';
 	var returndate 			 = $('#returndate').val();
 	var returntime 			 = $('#returntime').val();
 	var preference1 		 = $('#preference1').val();
@@ -41,10 +47,9 @@ function sendInformation(){
 	var rewards2 			 = $('#rewards2').val();
 	var preference3 		 = $('#preference3').val();
 	var rewards3 			 = $('#rewards3').val();
-	var confirmation 		 = $('#confirmation').val();//quitado
-	var modifidate 			 = $('#modifidate').val();//quitado
-	var cancellationdate 	 = $('#cancellationdate').val();//quitado
-	var check_invitation	 = $('#option-1').is(':checked');
+	var confirmation 		 = /*$('#confirmation').val()*/'aa';//quitado
+	var modifidate 			 = /*$('#modifidate').val()*/'aa';//quitado
+	var cancellationdate 	 = /*$('#cancellationdate').val()*/'aa';//quitado
 	//Emergency Contact
 	var contact 			 = $('#contact').val();
 	var phone 				 = $('#phone').val();
@@ -124,7 +129,8 @@ function sendInformation(){
 		msj('error', 'Residence must be completed');
 		return;
 	}
-	if(inputRadio == null || inputRadio == '') {
+	//poner
+	if(check_invi == null || check_invi == '') {
 		msj('error', 'Invitation must be completed');
 		return;
 	}
@@ -223,7 +229,7 @@ function sendInformation(){
 				fechaCumple		: birthdate,
 				nacionalidad	: nationality,
 				ciudadReferen	: residence,
-				flgInvitacion	: inputRadio,
+				flgInvitacion	: check_invi,
 				asientoPrefere	: seating,
 				tallaPolo		: shirt,
 				//
