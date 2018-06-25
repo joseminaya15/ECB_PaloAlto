@@ -274,63 +274,66 @@
     </section>
     <section id="register" class="js-section js-white">
         <div class="js-container">
-            <div class="accordion" id="jsaccordion">
-                <div class="card">
-                    <div class="card-header" id="jsaccordion1">
-                        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">Business info</button>
+            <div class="js-title">
+                <h2>Register</h2>
+            </div>
+            <div class="panel-group" id="accordion" role="tablist">
+                <div class="js-card panel panel-default">
+                    <div class="panel-heading" role="tab" id="headingOne">
+                        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">Business info</a>
                     </div>
-                    <div id="collapseOne" class="collapse show" aria-labelledby="jsaccordion1" data-parent="#jsaccordion">
+                    <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
                         <div class="card-body">
                             <div class="row">
-                                <div class="col-xs col-sm-6 col-md-4">
+                                <div class="col-xs-12 col-sm-6 col-md-4">
                                     <div class="js-input">
                                         <label for="text">First Name</label>
                                         <input type="text" id="firstname" onkeypress="return soloLetras(event);" maxlength="50">
                                     </div>
                                 </div>
-                                <div class="col-xs col-sm-6 col-md-4">
+                                <div class="col-xs-12 col-sm-6 col-md-4">
                                     <div class="js-input">
                                         <label for="text">Middle Name</label>
                                         <input type="text" id="middlename" onkeypress="return soloLetras(event);" maxlength="50">
                                     </div>
                                 </div>
-                                <div class="col-xs col-sm-6 col-md-4">
+                                <div class="col-xs-12 col-sm-6 col-md-4">
                                     <div class="js-input">
                                         <label for="text">Last Name</label>
                                         <input type="text" id="lastname" onkeypress="return soloLetras(event);" maxlength="50">
                                     </div>
                                 </div>
-                                <div class="col-xs col-sm-6 col-md-4">
+                                <div class="col-xs-12 col-sm-6 col-md-4">
                                     <div class="js-input">
                                         <label for="text">Company</label>
                                         <input type="text" id="company" >
                                     </div>
                                 </div>
-                                <div class="col-xs col-sm-6 col-md-4">
+                                <div class="col-xs-12 col-sm-6 col-md-4">
                                     <div class="js-input">
                                         <label for="text">Job Title</label>
                                         <input type="text" id="job" >
                                     </div>
                                 </div>
-                                <div class="col-xs col-sm-6 col-md-4">
+                                <div class="col-xs-12 col-sm-6 col-md-4">
                                     <div class="js-input">
                                         <label for="text">Mobile Phone Number</label>
                                         <input type="text" id="mobile" >
                                     </div>
                                 </div>
-                                <div class="col-xs col-sm-6 col-md-4">
+                                <div class="col-xs-12 col-sm-6 col-md-4">
                                     <div class="js-input">
                                         <label for="text">Email</label>
                                         <input type="text" id="email" >
                                     </div>
                                 </div>
-                                <div class="col-xs col-sm-6 col-md-4">
+                                <div class="col-xs-12 col-sm-6 col-md-4">
                                     <div class="js-input">
                                         <label for="text">City</label>
                                         <input type="text" id="city" >
                                     </div>
                                 </div>
-                                <div class="col-xs col-sm-6 col-md-4">
+                                <div class="col-xs-12 col-sm-6 col-md-4">
                                     <div class="js-input">
                                         <label for="text">Country</label>
                                         <input type="text" id="country" >
@@ -340,11 +343,11 @@
                         </div>
                     </div>
                 </div>
-                <div class="card">
-                    <div class="card-header" id="jsaccordion2">
-                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">Personal info</button>
+                <div class="js-card panel panel-default">
+                    <div class="panel-heading" id="headingTwo">
+                        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">Personal info</a>
                     </div>
-                    <div id="collapseTwo" class="collapse" aria-labelledby="jsaccordion2" data-parent="#jsaccordion">
+                    <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
                         <div class="card-body">
                             <div class="row">
                                 <div class="col-xs col-sm-6 col-md-4">
@@ -447,32 +450,32 @@
                         </div>
                     </div>
                 </div>
-                <div class="card">
-                    <div class="card-header" id="jsaccordion3">
-                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">Itinerary</button>
+                <div class="js-card panel panel-default">
+                    <div class="panel-heading" id="headingThree">
+                        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">Itinerary</a>
                     </div>
-                    <div id="collapseThree" class="collapse" aria-labelledby="jsaccordion3" data-parent="#jsaccordion">
+                    <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
                         <div class="card-body">
                             <div class="row">
-                                <div class="col-xs col-sm-6 col-md-4">
+                                <div class="col-xs-12 col-sm-6 col-md-4">
                                     <div class="js-input">
                                         <label for="text">Name acknowledgement</label>
                                         <input type="text" id="acknowledgement" >
                                     </div>
                                 </div>
-                                <div class="col-xs col-sm-6 col-md-4">
+                                <div class="col-xs-12 col-sm-6 col-md-4">
                                     <div class="js-input">
                                         <label for="text">Dietary Restrictions</label>
                                         <input type="text" id="restrictions" >
                                     </div>
                                 </div>
-                                <div class="col-xs col-sm-6 col-md-4">
+                                <div class="col-xs-12 col-sm-6 col-md-4">
                                     <div class=" js-input">
                                         <label for="text">Special Needs</label>
                                         <input type="text" id="need" >
                                     </div>
                                 </div>
-                                <div class="col-xs col-sm-6 col-md-4">
+                                <div class="col-xs-12 col-sm-6 col-md-4">
                                     <div class="js-input js-date js-flex">
                                         <input class="js-disabled" type="text" id="checkindate" name="checkindate" maxlength="10" placeholder="Check-In date" value="" style="pointer-events: none">
                                         <div class="js-icon">
@@ -482,7 +485,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-xs col-sm-6 col-md-4">
+                                <div class="col-xs-12 col-sm-6 col-md-4">
                                     <div class="js-input js-date js-flex">
                                         <input class="js-disabled" type="text" id="checkoutdate" name="checkoutdate" maxlength="10" placeholder="Check-Out date" value="" style="pointer-events: none">
                                         <div class="js-icon">
@@ -492,10 +495,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-xs col-sm-6 col-md-4">
-                                     
-                                </div>
-                                <div class="col-xs col-sm-6 col-md-4">
+                                <div class="col-xs-12 col-sm-6 col-md-4">
                                      <div class=" js-input">
                                         <label for="text">Departure Flight Origin</label>
                                         <input type="text" id="departureorigin" >
@@ -507,7 +507,7 @@
                                         <input type="text" id="departuredestination" >
                                     </div>
                                 </div> -->
-                                <div class="col-xs col-sm-6 col-md-4">
+                                <div class="col-xs-12 col-sm-6 col-md-4">
                                     <div class="js-input js-date js-flex">
                                         <input class="js-disabled" type="text" id="departuredate" name="departuredate" maxlength="10" placeholder="Departure Flight Date" value="" style="pointer-events: none">
                                         <div class="js-icon">
@@ -517,7 +517,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-xs col-sm-6 col-md-4">
+                                <div class="col-xs-12 col-sm-6 col-md-4">
                                     <div class="js-input js-date js-flex">
                                         <input class="js-disabled" type="text" id="departuretime" name="departuretime" maxlength="10" placeholder="Departure Flight Time" value="" style="pointer-events: none">
                                         <div class="js-icon">
@@ -527,7 +527,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-xs col-sm-6 col-md-4">
+                                <div class="col-xs-12 col-sm-6 col-md-4">
                                     <div class=" js-input">
                                         <label for="text">Return Flight Origin</label>
                                         <input type="text" id="returnorigin" >
@@ -539,7 +539,7 @@
                                         <input type="text" id="returndestination" >
                                     </div>
                                 </div> -->
-                                <div class="col-xs col-sm-6 col-md-4">
+                                <div class="col-xs-12 col-sm-6 col-md-4">
                                     <div class="js-input js-date js-flex">
                                         <input class="js-disabled" type="text" id="returndate" name="returndate" maxlength="10" placeholder="Return Flight Date" value="" style="pointer-events: none">
                                         <div class="js-icon">
@@ -549,7 +549,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-xs col-sm-6 col-md-4">
+                                <div class="col-xs-12 col-sm-6 col-md-4">
                                     <div class="js-input js-date js-flex">
                                         <input class="js-disabled" type="text" id="returntime" name="returntime" maxlength="10" placeholder="Return Flight Time" value="" style="pointer-events: none">
                                         <div class="js-icon">
@@ -559,35 +559,29 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-xs col-sm-6 col-md-4">
+                                <div class="col-xs-12 col-sm-6 col-md-4">
                                     <div class=" js-input">
                                         <label for="text">Airline Preference 1</label>
                                         <input type="text" id="preference1" >
                                     </div>
                                 </div>
-                                <div class="col-xs col-sm-6 col-md-4">
+                                <div class="col-xs-12 col-sm-6 col-md-4">
                                     <div class=" js-input">
                                         <label for="text">Airline Rewards Code 1</label>
                                         <input type="text" id="rewards1" >
                                     </div>
                                 </div>
-                                <div class="col-xs col-sm-6 col-md-4">
-                                    
-                                </div>
-                                <div class="col-xs col-sm-6 col-md-4">
+                                <div class="col-xs-12 col-sm-6 col-md-4">
                                     <div class=" js-input">
                                         <label for="text">Airline Preference 2</label>
                                         <input type="text" id="preference2" >
                                     </div>
                                 </div>
-                                <div class="col-xs col-sm-6 col-md-4">
+                                <div class="col-xs-12 col-sm-6 col-md-4">
                                     <div class=" js-input">
                                         <label for="text">Airline Rewards Code 2</label>
                                         <input type="text" id="rewards2" >
                                     </div>
-                                </div>
-                                <div class="col-xs col-sm-6 col-md-4">
-                                    
                                 </div>
                                 <div class="col-xs col-sm-6 col-md-4">
                                     <div class=" js-input">
@@ -595,7 +589,7 @@
                                         <input type="text" id="preference3" >
                                     </div>
                                 </div>
-                                <div class="col-xs col-sm-6 col-md-4">
+                                <div class="col-xs-12 col-sm-6 col-md-4">
                                     <div class=" js-input">
                                         <label for="text">Airline Rewards Code 3</label>
                                         <input type="text" id="rewards3" >
@@ -631,32 +625,32 @@
                         </div>
                     </div>
                 </div>
-                <div class="card">
-                    <div class="card-header" id="jsaccordion4">
-                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse4" aria-expanded="false" aria-controls="collapse4">Emergency Contact</button>
+                <div class="js-card panel panel-default">
+                    <div class="panel-heading " id="headingFour">
+                        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">Emergency Contact</a>
                     </div>
-                    <div id="collapse4" class="collapse" aria-labelledby="jsaccordion4" data-parent="#jsaccordion">
+                    <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
                         <div class="card-body">
                             <div class="row">
-                                <div class="col-xs col-sm-6 col-md-4">
+                                <div class="col-xs-12 col-sm-6 col-md-4">
                                     <div class="js-input">
                                         <label for="text">Contact Name</label>
                                         <input type="text" id="contact" >
                                     </div>
                                 </div>
-                                <div class="col-xs col-sm-6 col-md-4">
+                                <div class="col-xs-12 col-sm-6 col-md-4">
                                     <div class="js-input">
                                         <label for="text">Contact Phone Number</label>
                                         <input type="text" id="phone" >
                                     </div>
                                 </div>
-                                <div class="col-xs col-sm-6 col-md-4">
+                                <div class="col-xs-12 col-sm-6 col-md-4">
                                     <div class="js-input">
                                         <label for="text">Their relationship to you</label>
                                         <input type="text" id="relationship" >
                                     </div>
                                 </div>
-                                <div class="col">
+                                <div class="col-xs-12">
                                     <div class="js-input">
                                         <label for="text">Additional Specifications (i.e.: Special diet, extra leg room needed, etc)</label>
                                         <input type="text" id="specifications" >
