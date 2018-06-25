@@ -4,13 +4,13 @@
 	<meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible"  content="IE=edge">
     <meta name="viewport"               content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
-    <meta name="description"            content="HPE Latin America Hybrid IT Bootcamp - January 30th to February 1st, 2018">
-    <meta name="keywords"               content="HPE Latin America Hybrid IT Bootcamp">
+    <meta name="description"            content="HPE Caribbean Executive Briefing - July 23-26th, 2018">
+    <meta name="keywords"               content="HPE Caribbean Executive Briefing">
     <meta name="robots"                 content="Index,Follow">
-    <meta name="date"                   content="January 30, 2018"/>
+    <meta name="date"                   content="July 23, 2018"/>
     <meta name="language"               content="es">
     <meta name="theme-color"            content="#000000">
-	<title>ECB Palo Alto</title>
+	<title>HPE Cariibbean ECB Palo Alto</title>
     <link rel="shortcut icon" href="<?php echo RUTA_IMG?>logo/favicon.ico">
     <link rel="stylesheet"    href="<?php echo RUTA_PLUGINS?>toaster/toastr.min.css?v=<?php echo time();?>">
     <link rel="stylesheet"    href="<?php echo RUTA_PLUGINS?>mdl/material.min.css?v=<?php echo time();?>">
@@ -49,7 +49,7 @@
                 </div> -->
                 <div class="js-contenido">
                     <h2>HPE Caribbean Executive Briefing</h2>
-                    <p>July 24th to 26th, 2018</p>
+                    <p>July 23th to 26th, 2018</p>
                     <div class="js-contenido__buttons">
                         <a href="#register" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect link">REGISTER HERE</a>
                         <a href="#agenda" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect link">AGENDA</a>
@@ -63,32 +63,31 @@
             <h2 class="js-title">Home</h2>
             <div class="js-information">
                 <h2>Welcome&#33;</h2>
-                <p>On behalf of Hewlett Packard Enterprise and Intel® we are pleased to invite you to the <strong>"Hybrid IT Latin American Executive Briefing"</strong> to be held at HPE Executive Briefing Center on May 28-31, 2018.</p>
+                <p>On behalf of Hewlett Packard Enterprise and Intel® we are pleased to invite you to the <strong>"Hybrid IT Caribbean Executive Briefing"</strong> to be held at HPE Executive Briefing Center on July 23-26, 2018.</p>
                 <p>The HPE Executive Briefing Center is located in Palo Alto California; it has a modern infrastructure including conference centers and solution laboratories within headquarters. During the visit, senior executives and industry experts will share their knowledge and experience to help you identify the best solutions to their technology needs.</p>
                 <p>This event gives us the scenario to share HPE´s vision and strategy, as well as present the benefits of the products and services for Data Centers, Hybrid Infrastructure and Connectivity. We have lecturers from the laboratories, Hewlett Packard Enterprise specialists, and we've programmed some of our most brilliant presenters and experts to share our insights with this select group of executives from Latin America.</p>
                 <p>On the agenda, we will focus on topics aimed at guiding our clients, who want to implement solutions in the cloud - both public and private - the benefits and challenges of having a hybrid infrastructure and a route plan that best suits their needs. In addition to infrastructure solutions, we have technological services to support you to achieve an innovative and successful implementation that becomes the common factor of technology projects in your company.</p>
                 <p>Included within the academic activities are interesting visits to the center of solutions and demonstrations which will change their perspective of the new technologies.</p>
                 <p>We are sure that you will take this opportunity to interact with senior executives from other companies that will join you in this visit.</p>
-                <p>Intel and the Intel logo are trademarks of Intel Corporation in the United States. And/or other countries.</p>
             </div>
         </div>
     </section>
     <section id="hotel" class="js-section">
         <div class="js-container">
             <h2 class="js-title">HOTEL INFORMATION</h2>
-            <div class="js-information">
-                <h2>Welcome to Your New San Jose Home</h2>
-                <p>Explore northern California from Hyatt Place San Jose/Downtown. Our hotel is walking distance from the train station and around the corner from major thoroughfares. Business travelers are minutes from companies and convention centers while families are just miles from shopping on Santana Row or campus tours of Stanford.</p>
+            <div class="js-information"><br>
+                <h2>Welcome to San Jose</h2>
+                <p>Explore northern California from Hyatt Place San Jose/Downtown. This hotel is walking distance from the train station and around the corner from major thoroughfares. Business travelers are minutes from companies and convention centers while families are just miles from shopping on Santana Row or campus tours of Stanford.</p>
                 <div class="js-flex--start">
                     <div class="js-information__left">
                         <div class="js-information__left--imagen"></div>
                     </div>
                     <div class="js-information__right">
-                        <h2>Hyatt Place San Jose/Downtown</h2>
-                        <a href="tel:+14089980400">+1 408 998 0400</a>
-                        <p>282 Almaden Boulevard</p>
-                        <p>San Jose, California, 95113</p>
-                        <p>USA</p>
+                        <h2>Hyatt Place San Jose/Downtown</h2><br>
+                        <font>282 Almaden Boulevard</font><br>
+                        <font>San Jose, California, 95113</font><br>
+                        <font>USA</font><br>
+                        <a href="tel:+14089980400">Tel. +1 408 998 0400</a><br>
                         <a href="https://sanjose.place.hyatt.com/en/hotel/home.html" target="_blank">WebSite</a>
                     </div>
                 </div>
