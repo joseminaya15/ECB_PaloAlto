@@ -709,6 +709,16 @@
     <script src="<?php echo RUTA_JS?>Utils.js?v=<?php echo time();?>"></script>
     <script type="text/javascript">
         initButtonCalendarDaysMinToday('issuedate');
+        initButtonCalendarDaysMinToday('expiredate');
+        initButtonCalendarDaysMinToday('birthdate');
+        initButtonCalendarDaysMinToday('checkindate');
+        initButtonCalendarDaysMinToday('checkoutdate');
+        initButtonCalendarDaysMinToday('departuredate');
+        initButtonCalendarDaysMinToday('departuretime');
+        initButtonCalendarDaysMinToday('returndate');
+        initButtonCalendarDaysMinToday('returntime');
+        initButtonCalendarDaysMinToday('returndate');
+        initButtonCalendarDaysMinToday('returndate');
         if( /Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent) ) {
             $('select').selectpicker('mobile');
         } else {

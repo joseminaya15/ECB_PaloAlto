@@ -204,7 +204,6 @@ function sendInformation(){
 		msj('error', 'relationship must be completed');
 		return;
 	}
-	return;
 	$.ajax({
 		data : {primerNombre	: firstname,
 				segundoNombre	: middlename,
