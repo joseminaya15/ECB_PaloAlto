@@ -100,10 +100,10 @@
             <h2 class="js-title">AGENDA</h2>
             <ul class="nav nav-tabs" id="myTab" role="tablist">
                 <li class="nav-item">
-                    <a class="nav-link active" id="july24" data-toggle="tab" href="#july24" role="tab" aria-controls="july24" aria-selected="true">July 24th, 2018</a>
+                    <a class="nav-link active" id="july24-tab" data-toggle="tab" href="#july24" role="tab" aria-controls="july24" aria-selected="true">July 24th, 2018</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" id="july26" data-toggle="tab" href="#july26" role="tab" aria-controls="july26" aria-selected="false">July 26th, 2018</a>
+                    <a class="nav-link" id="july25-tab" data-toggle="tab" href="#july25" role="tab" aria-controls="july25" aria-selected="false">July 25th, 2018</a>
                 </li>
             </ul>
             <div class="tab-content" id="myTabContent">
@@ -118,61 +118,66 @@
                             </thead>
                             <tbody>
                                 <tr>
-                                    <td></td>
-                                    <td></td>
+                                    <td>8:00 am</td>
+                                    <td>Executive Welcome/Roundtable</td>
                                 </tr>
                                 <tr>
-                                    <td></td>
-                                    <td></td>
+                                    <td>9:00 am</td>
+                                    <td>Hewlett Packard Enterprise Strategy/Hybrid IT: How to Innovate Fearlessly in an Age of Digital Disruption</td>
                                 </tr>
                                 <tr>
-                                    <td></td>
-                                    <td></td>
+                                    <td>10:15 am</td>
+                                    <td>Break</td>
                                 </tr>
                                 <tr>
-                                    <td></td>
-                                    <td></td>
+                                    <td>10:30 am</td>
+                                    <td>Optimize your right mix with OneView (move to Techworks for Synergy/OneView Demo)</td>
                                 </tr>
                                 <tr>
-                                    <td></td>
-                                    <td></td>
+                                    <td>11:30 am</td>
+                                    <td>SimpliVity (plus demo)</td>
                                 </tr>
                                 <tr>
-                                    <td></td>
-                                    <td></td>
+                                    <td>12:30 pm</td>
+                                    <td>Lunch</td>
                                 </tr>
                                 <tr>
-                                    <td></td>
-                                    <td></td>
+                                    <td>1:30 pm</td>
+                                    <td>The Future of Mission Critical Solutions in a Hybrid IT World</td>
                                 </tr>
                                 <tr>
-                                    <td></td>
-                                    <td></td>
+                                    <td>2:15 pm</td>
+                                    <td>Enable efficiency with High Performance Compute</td>
                                 </tr>
                                 <tr>
-                                    <td></td>
-                                    <td></td>
+                                    <td>3:00 pm</td>
+                                    <td>Break</td>
                                 </tr>
                                 <tr>
-                                    <td></td>
-                                    <td></td>
+                                    <td>3:15 pm</td>
+                                    <td>Storage for Power, Flexibility and Ease</td>
                                 </tr>
                                 <tr>
-                                    <td></td>
-                                    <td></td>
+                                    <td>4:00 pm</td>
+                                    <td>Nimble</td>
                                 </tr>
                                 <tr>
-                                    <td></td>
-                                    <td></td>
+                                    <td>4:45 pm</td>
+                                    <td>Lab: Hewlett Packard Labs Innovation Showcase</td>
                                 </tr>
                                 <tr>
-                                    <td></td>
-                                    <td></td>
+                                    <td>5:15 pm</td>
+                                    <td>Wrap up Day 1</td>
                                 </tr>
                                 <tr>
-                                    <td></td>
-                                    <td></td>
+                                    <td>5:30 pm</td>
+                                    <td>Free afternoon</td>
                                 </tr>
+                                <tr>
+                                    <td>8:00 pm</td>
+                                    <td>Welcome dinner</td>
+                                </tr>
+                                <tr>
                                 <tr>
                                     <td></td>
                                     <td></td>
@@ -181,7 +186,7 @@
                         </table>
                     </div>
                 </div>
-                <div class="tab-pane fade" id="july26" role="tabpanel" aria-labelledby="profile-tab">
+                <div class="tab-pane fade" id="july25" role="tabpanel" aria-labelledby="profile-tab">
                     <div class="table-responsive">
                         <table class="table table-striped">
                             <thead>
@@ -192,52 +197,52 @@
                             </thead>
                             <tbody>
                                 <tr>
-                                    <td></td>
-                                    <td></td>
+                                    <td>8:30 am</td>
+                                    <td>Arrival, Breakfast</td>
                                 </tr>
                                 <tr>
-                                    <td></td>
-                                    <td></td>
+                                    <td>9:00 am</td>
+                                    <td>Welcome Day 2, Review Agenda</td>
                                 </tr>
                                 <tr>
-                                    <td></td>
-                                    <td></td>
+                                    <td>9:15 am</td>
+                                    <td>Transformation of Networking in the Data Center of the Future  </td>
                                 </tr>
                                 <tr>
-                                    <td></td>
-                                    <td></td>
+                                    <td>10:15 am</td>
+                                    <td>HPE Pointnext: Finding your right mix of Hybrid IT and Consumption   </td>
                                 </tr>
                                 <tr>
-                                    <td></td>
-                                    <td></td>
+                                    <td>11:15 am</td>
+                                    <td>Break</td>
                                 </tr>
                                 <tr>
-                                    <td></td>
-                                    <td></td>
+                                    <td>11:30 am</td>
+                                    <td>Data center in action: Tour of TechWorks </td>
                                 </tr>
                                 <tr>
-                                    <td></td>
-                                    <td></td>
+                                    <td>12:30 pm</td>
+                                    <td>Lunch</td>
                                 </tr>
                                 <tr>
-                                    <td></td>
-                                    <td></td>
+                                    <td>1:30 pm</td>
+                                    <td>Wrap up Day 2</td>
                                 </tr>
                                 <tr>
-                                    <td></td>
-                                    <td></td>
+                                    <td>1:45 pm</td>
+                                    <td>Group visit HP first office</td>
                                 </tr>
                                 <tr>
-                                    <td></td>
-                                    <td></td>
+                                    <td>2:45 pm</td>
+                                    <td>Group visit to HP garage</td>
                                 </tr>
                                 <tr>
-                                    <td></td>
-                                    <td></td>
+                                    <td>3:35 pm</td>
+                                    <td>Free afternoon / Get to know San Jose</td>
                                 </tr>
                                 <tr>
-                                    <td></td>
-                                    <td></td>
+                                    <td>8:00 pm</td>
+                                    <td>Group dinner</td>
                                 </tr>
                                 <tr>
                                     <td></td>
