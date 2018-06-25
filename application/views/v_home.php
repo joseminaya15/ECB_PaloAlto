@@ -24,7 +24,7 @@
     <link rel="stylesheet"    href="<?php echo RUTA_CSS?>index.css?v=<?php echo time();?>">
     <link rel="stylesheet"    href="<?php echo RUTA_CSS?>style.css?v=<?php echo time();?>">
 </head>
-<body>
+<body data-spy="scroll">
     <nav class="navbar navbar-default">
         <div class="js-container">
             <div class="navbar-header">
@@ -257,7 +257,7 @@
             </div>
         </div>
     </section>
-    <section id="register" class="js-section">
+    <section id="visa" class="js-section">
         <div class="js-container">
             <h2 class="js-title">VISA INFORMATION</h2>
             <div class="js-information">
