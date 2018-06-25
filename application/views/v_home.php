@@ -666,8 +666,8 @@
             </div>
         </div>
     </section>
-    <footer>
-        <div class="container text-center">
+    <footer class="js-section">
+        <div class="js-container text-center">
             <p class="content">Intel and the Intel logo are trademarks of the Corporation in the United States and / or other countries.</p>
             <p>&copy;Copyright 2018 Hewlett Packard Enterprice Development LP</p>
         </div>
