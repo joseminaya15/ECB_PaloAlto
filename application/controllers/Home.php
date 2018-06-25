@@ -13,9 +13,9 @@ class Home extends CI_Controller {
         $this->output->set_header('Pragma: no-cache');
   	}
 
-	public function index()
-	{
-		$this->load->view('v_home');
+	public function index(){
+		$data['nombre'] = '';
+		$this->load->view('v_home', $data);
 	}
 
 	function register() {
