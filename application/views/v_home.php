@@ -516,12 +516,11 @@
                                 </div>
                                 <div class="col-xs-12 col-sm-6 col-md-4">
                                     <div class="js-input js-date js-flex">
-                                        <input class="js-disabled" type="text" id="departuretime" name="departuretime" maxlength="10" placeholder="Departure Flight Time" value="" style="pointer-events: none">
-                                        <div class="js-icon">
-                                            <button type="button" class="mdl-button mdl-js-button mdl-button--icon">
-                                                <i class="mdi mdi-date_range"></i>
-                                            </button>
-                                        </div>
+                                        <select name="departuretime" id="departuretime" title="Departure Flight Time"> 
+                                            <option value="morning">Morning</option>
+                                            <option value="afternon">Afternon</option>
+                                            <option value="evening">Evening</option>
+                                        </select>
                                     </div>
                                 </div>
                                 <div class="col-xs-12 col-sm-6 col-md-4">
@@ -548,12 +547,11 @@
                                 </div>
                                 <div class="col-xs-12 col-sm-6 col-md-4">
                                     <div class="js-input js-date js-flex">
-                                        <input class="js-disabled" type="text" id="returntime" name="returntime" maxlength="10" placeholder="Return Flight Time" value="" style="pointer-events: none">
-                                        <div class="js-icon">
-                                            <button type="button" class="mdl-button mdl-js-button mdl-button--icon">
-                                                <i class="mdi mdi-date_range"></i>
-                                            </button>
-                                        </div>
+                                        <select name="returntime" id="returntime" title="Return Flight Time"> 
+                                            <option value="morning">Morning</option>
+                                            <option value="afternon">Afternon</option>
+                                            <option value="evening">Evening</option>
+                                        </select>
                                     </div>
                                 </div>
                                 <div class="col-xs-12 col-sm-6 col-md-4">

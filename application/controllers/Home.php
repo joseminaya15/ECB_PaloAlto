@@ -69,8 +69,8 @@ class Home extends CI_Controller {
 			$aerolinea3 	  = $this->input->post('aerolinea3');
 			$codigoAero3 	  = $this->input->post('codigoAero3');
 			$confirmacion 	  = $this->input->post('confirmacion');
-			$ultimoDiaModifica= $this->input->post('ultimoDiaModifica');
-			$ultimoDiaCancela = $this->input->post('ultimoDiaCancela');
+			$ultimoDiaModifica= implode("-", array_reverse(explode("/", $this->input->post('ultimoDiaModifica'))));
+			$ultimoDiaCancela = implode("-", array_reverse(explode("/", $this->input->post('ultimoDiaCancela'))));
 			//Tabla Contacto Emergencia
 			$nombreContacto = $this->input->post('nombreContacto');
 			$telefonoContac = $this->input->post('telefonoContac');

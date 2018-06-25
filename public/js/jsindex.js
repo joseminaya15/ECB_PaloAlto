@@ -265,6 +265,11 @@ function sendInformation(){
 	}).done(function(data){
 		try {
 			data = JSON.parse(data);
+			if(data.error == 0){
+				$('.js-input').find('input').val('');
+        	}else{
+        		return;
+        	}
 		} catch (err) {
 			msj('error', err.message);
 		}
