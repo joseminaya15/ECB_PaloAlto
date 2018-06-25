@@ -44,6 +44,7 @@ function sendInformation(){
 	var confirmation 		 = $('#confirmation').val();//quitado
 	var modifidate 			 = $('#modifidate').val();//quitado
 	var cancellationdate 	 = $('#cancellationdate').val();//quitado
+	var check_invitation	 = $('#option-1').is(':checked');
 	//Emergency Contact
 	var contact 			 = $('#contact').val();
 	var phone 				 = $('#phone').val();
