@@ -23,7 +23,7 @@ function sendInformation(){
 	if(inputRadio == true){
 		check_invi = 1;
 	}else {
-		check_invi = 2;
+		check_invi = 0;
 	}
 	var seating 			 = $('#seating').val();
 	var shirt 				 = $('#shirt').val();
