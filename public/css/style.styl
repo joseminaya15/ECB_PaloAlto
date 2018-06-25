@@ -15,6 +15,12 @@ flexEnd()
 	display flex
 	display -webkit-flex
 	align-items flex-end
+transitionAll()
+	-webkit-transition all .3s linear
+	-moz-transition all .3s linear
+	-ms-transition all .3s linear
+	-o-transition all .3s linear
+	transition all .3s linear
 transitionOpacity()
 	-webkit-transition opacity .3s linear
 	-moz-transition opacity .3s linear
@@ -271,17 +277,23 @@ strong
 		opacity .5
 /*BOOTSTRAP4*/
 .navbar
+	transitionAll()
 	position fixed
 	width 100%
 	background-color #000000
+	z-index 10
 .navbar-brand
 	img
 		max-width 200px
 .navbar-light 
 	.navbar-nav 
+		.active
+			.nav-link
+				color #FFFFFF
 		.nav-link
 			font-size 18px
 			color #FFFFFF
+			
 /*CLASES PROYECTO*/
 .js-contenido
 	text-align center
@@ -344,5 +356,7 @@ strong
 @media (min-width: 768px)
 	.navbar
 		background-color transparent
+		&.navbarcolor
+			background-color #000000
 		
 				
