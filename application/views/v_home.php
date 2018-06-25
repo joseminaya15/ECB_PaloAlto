@@ -104,16 +104,12 @@
     <section id="agenda" class="js-section">
         <div class="js-container">
             <h2 class="js-title">AGENDA</h2>
-            <ul class="nav nav-tabs" id="myTab" role="tablist">
-                <li class="nav-item">
-                    <a class="nav-link active" id="july24-tab" data-toggle="tab" href="#july24" role="tab" aria-controls="july24" aria-selected="true">July 24th, 2018</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" id="july25-tab" data-toggle="tab" href="#july25" role="tab" aria-controls="july25" aria-selected="false">July 25th, 2018</a>
-                </li>
+            <ul class="nav nav-tabs" role="tablist">
+                <li class="active"><a href="#july24" aria-controls="july24" role="tab" data-toggle="tab">July 24th, 2018</a></li>
+                <li><a href="#july25" aria-controls="july25" role="tab" data-toggle="tab">July 25th, 2018</a></li>
             </ul>
-            <div class="tab-content" id="myTabContent">
-                <div class="tab-pane fade show active" id="july24" role="tabpanel" aria-labelledby="home-tab">
+            <div class="tab-content">
+                <div role="tabpanel" class="tab-pane fade in active" id="july24">
                     <div class="table-responsive">
                         <table class="table table-striped">
                             <thead>
@@ -192,7 +188,7 @@
                         </table>
                     </div>
                 </div>
-                <div class="tab-pane fade" id="july25" role="tabpanel" aria-labelledby="profile-tab">
+                <div role="tabpanel" class="tab-pane fade" id="july25">
                     <div class="table-responsive">
                         <table class="table table-striped">
                             <thead>
