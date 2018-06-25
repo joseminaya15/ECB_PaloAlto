@@ -24,7 +24,7 @@
     <link rel="stylesheet"    href="<?php echo RUTA_CSS?>index.css?v=<?php echo time();?>">
     <link rel="stylesheet"    href="<?php echo RUTA_CSS?>style.css?v=<?php echo time();?>">
 </head>
-<body data-spy="scroll">
+<body>
     <nav class="navbar navbar-default">
         <div class="js-container">
             <div class="navbar-header">

@@ -115,6 +115,7 @@ img
 	width 100%
 p
 	margin 0
+	font-size 18px
 strong
 	font-family $medium
 .js-section
@@ -276,7 +277,7 @@ strong
 		height 100vh
 		opacity .5
 /*BOOTSTRAP4*/
-.navbar
+.navbar-default
 	transitionAll()
 	border none
 	border-radius 0
@@ -284,18 +285,25 @@ strong
 	width 100%
 	background-color #000000
 	z-index 10
+	.navbar-nav
+		&>li
+			&>a
+				color #FFFFFF !important
+				font-size 18px
+				background-color transparent !important
 .navbar-brand
 	img
 		max-width 200px
-.navbar-light 
-	.navbar-nav 
-		.active
-			.nav-link
-				color #FFFFFF
-		.nav-link
+.nav-tabs
+	border none
+	&>li
+		&>a
+			border none !important
 			font-size 18px
-			color #FFFFFF
-			
+	&>li
+		&.active
+			&>a
+				font-family $bold				
 /*CLASES PROYECTO*/
 .js-contenido
 	text-align center
@@ -309,9 +317,14 @@ strong
 		font-size 32px
 .js-information
 	p
-		font-size 16px
 		line-height 20px
 		margin 15px 0
+	strong
+		margin 10px 0
+		font-size 18px		
+	ul
+		li
+			font-size 18px
 .js-information__left
 	flexCenter()
 	justify-content flex-start
@@ -345,6 +358,12 @@ strong
 				transform translate(1)
 				transform transform(-50% , -50%)
 				opacity 1
+/*TABLE*/
+table
+	&>tbody
+		&>tr
+			&>td
+				font-size 16px
 /*SCROLL*/
 ::-webkit-scrollbar
 	width 8px
