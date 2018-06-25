@@ -267,55 +267,55 @@
                                 <div class="col-xs col-sm-6 col-md-4">
                                     <div class="js-input">
                                         <label for="text">First Name</label>
-                                        <input type="text" id="firstname" onkeyup="verificarDatos(event);">
+                                        <input type="text" id="firstname" onkeypress="return soloLetras(event);" maxlength="50">
                                     </div>
                                 </div>
                                 <div class="col-xs col-sm-6 col-md-4">
                                     <div class="js-input">
                                         <label for="text">Middle Name</label>
-                                        <input type="text" id="middlename" onkeyup="verificarDatos(event);">
+                                        <input type="text" id="middlename" onkeypress="return soloLetras(event);" maxlength="50">
                                     </div>
                                 </div>
                                 <div class="col-xs col-sm-6 col-md-4">
                                     <div class="js-input">
                                         <label for="text">Last Name</label>
-                                        <input type="text" id="lastname" onkeyup="verificarDatos(event);">
+                                        <input type="text" id="lastname" onkeypress="return soloLetras(event);" maxlength="50">
                                     </div>
                                 </div>
                                 <div class="col-xs col-sm-6 col-md-4">
                                     <div class="js-input">
                                         <label for="text">Company</label>
-                                        <input type="text" id="company" onkeyup="verificarDatos(event);">
+                                        <input type="text" id="company" >
                                     </div>
                                 </div>
                                 <div class="col-xs col-sm-6 col-md-4">
                                     <div class="js-input">
                                         <label for="text">Job Title</label>
-                                        <input type="text" id="job" onkeyup="verificarDatos(event);">
+                                        <input type="text" id="job" >
                                     </div>
                                 </div>
                                 <div class="col-xs col-sm-6 col-md-4">
                                     <div class="js-input">
                                         <label for="text">Mobile Phone Number</label>
-                                        <input type="text" id="mobile" onkeyup="verificarDatos(event);">
+                                        <input type="text" id="mobile" >
                                     </div>
                                 </div>
                                 <div class="col-xs col-sm-6 col-md-4">
                                     <div class="js-input">
                                         <label for="text">Email</label>
-                                        <input type="text" id="email" onkeyup="verificarDatos(event);">
+                                        <input type="text" id="email" >
                                     </div>
                                 </div>
                                 <div class="col-xs col-sm-6 col-md-4">
                                     <div class="js-input">
                                         <label for="text">City</label>
-                                        <input type="text" id="city" onkeyup="verificarDatos(event);">
+                                        <input type="text" id="city" >
                                     </div>
                                 </div>
                                 <div class="col-xs col-sm-6 col-md-4">
                                     <div class="js-input">
                                         <label for="text">Country</label>
-                                        <input type="text" id="country" onkeyup="verificarDatos(event);">
+                                        <input type="text" id="country" >
                                     </div>
                                 </div>
                             </div>
@@ -332,7 +332,7 @@
                                 <div class="col-xs col-sm-6 col-md-4">
                                     <div class="js-input">
                                         <label for="text">Passport Number</label>
-                                        <input type="text" id="passport" onkeyup="verificarDatos(event);">
+                                        <input type="text" id="passport" >
                                     </div>
                                 </div>
                                 <div class="col-xs col-sm-6 col-md-4">
@@ -358,7 +358,7 @@
                                 <div class="col-xs col-sm-6 col-md-4">
                                     <div class=" js-input">
                                         <label for="text">Passport Issuing Country</label>
-                                        <input type="text" id="issuecountry" onkeyup="verificarDatos(event);">
+                                        <input type="text" id="issuecountry" >
                                     </div>
                                 </div>
                                 <div class="col-xs col-sm-6 col-md-4">
@@ -382,13 +382,13 @@
                                 <div class="col-xs col-sm-6 col-md-4">
                                      <div class=" js-input">
                                         <label for="text">Nationality</label>
-                                        <input type="text" id="nationality" onkeyup="verificarDatos(event);">
+                                        <input type="text" id="nationality" >
                                     </div>
                                 </div>
                                 <div class="col-xs col-sm-6 col-md-4">
                                     <div class=" js-input">
                                         <label for="text">Country of Residence</label>
-                                        <input type="text" id="residence" onkeyup="verificarDatos(event);">
+                                        <input type="text" id="residence" >
                                     </div>
                                 </div>
                                 <div class="col-xs col-sm-6 col-md-4">
@@ -431,19 +431,19 @@
                                 <div class="col-xs col-sm-6 col-md-4">
                                     <div class="js-input">
                                         <label for="text">Name acknowledgement</label>
-                                        <input type="text" id="acknowledgement" onkeyup="verificarDatos(event);">
+                                        <input type="text" id="acknowledgement" >
                                     </div>
                                 </div>
                                 <div class="col-xs col-sm-6 col-md-4">
                                     <div class="js-input">
                                         <label for="text">Dietary Restrictions</label>
-                                        <input type="text" id="restrictions" onkeyup="verificarDatos(event);">
+                                        <input type="text" id="restrictions" >
                                     </div>
                                 </div>
                                 <div class="col-xs col-sm-6 col-md-4">
                                     <div class=" js-input">
                                         <label for="text">Special Needs</label>
-                                        <input type="text" id="need" onkeyup="verificarDatos(event);">
+                                        <input type="text" id="need" >
                                     </div>
                                 </div>
                                 <div class="col-xs col-sm-6 col-md-4">
@@ -472,13 +472,13 @@
                                 <div class="col-xs col-sm-6 col-md-4">
                                      <div class=" js-input">
                                         <label for="text">Departure Flight Origin</label>
-                                        <input type="text" id="departureorigin" onkeyup="verificarDatos(event);">
+                                        <input type="text" id="departureorigin" >
                                     </div>
                                 </div>
                                 <!-- <div class="col-xs col-sm-6 col-md-4" style="display:none">
                                     <div class=" js-input">
                                         <label for="text">Departure Flight Destination</label>
-                                        <input type="text" id="departuredestination" onkeyup="verificarDatos(event);">
+                                        <input type="text" id="departuredestination" >
                                     </div>
                                 </div> -->
                                 <div class="col-xs col-sm-6 col-md-4">
@@ -504,13 +504,13 @@
                                 <div class="col-xs col-sm-6 col-md-4">
                                     <div class=" js-input">
                                         <label for="text">Return Flight Origin</label>
-                                        <input type="text" id="returnorigin" onkeyup="verificarDatos(event);">
+                                        <input type="text" id="returnorigin" >
                                     </div>
                                 </div>
                                 <!-- <div class="col-xs col-sm-6 col-md-4" style="display:none">
                                     <div class=" js-input">
                                         <label for="text">Return Flight Destination</label>
-                                        <input type="text" id="returndestination" onkeyup="verificarDatos(event);">
+                                        <input type="text" id="returndestination" >
                                     </div>
                                 </div> -->
                                 <div class="col-xs col-sm-6 col-md-4">
@@ -536,13 +536,13 @@
                                 <div class="col-xs col-sm-6 col-md-4">
                                     <div class=" js-input">
                                         <label for="text">Airline Preference 1</label>
-                                        <input type="text" id="preference1" onkeyup="verificarDatos(event);">
+                                        <input type="text" id="preference1" >
                                     </div>
                                 </div>
                                 <div class="col-xs col-sm-6 col-md-4">
                                     <div class=" js-input">
                                         <label for="text">Airline Rewards Code 1</label>
-                                        <input type="text" id="rewards1" onkeyup="verificarDatos(event);">
+                                        <input type="text" id="rewards1" >
                                     </div>
                                 </div>
                                 <div class="col-xs col-sm-6 col-md-4">
@@ -551,13 +551,13 @@
                                 <div class="col-xs col-sm-6 col-md-4">
                                     <div class=" js-input">
                                         <label for="text">Airline Preference 2</label>
-                                        <input type="text" id="preference2" onkeyup="verificarDatos(event);">
+                                        <input type="text" id="preference2" >
                                     </div>
                                 </div>
                                 <div class="col-xs col-sm-6 col-md-4">
                                     <div class=" js-input">
                                         <label for="text">Airline Rewards Code 2</label>
-                                        <input type="text" id="rewards2" onkeyup="verificarDatos(event);">
+                                        <input type="text" id="rewards2" >
                                     </div>
                                 </div>
                                 <div class="col-xs col-sm-6 col-md-4">
@@ -566,19 +566,19 @@
                                 <div class="col-xs col-sm-6 col-md-4">
                                     <div class=" js-input">
                                         <label for="text">Airline Preference 3</label>
-                                        <input type="text" id="preference3" onkeyup="verificarDatos(event);">
+                                        <input type="text" id="preference3" >
                                     </div>
                                 </div>
                                 <div class="col-xs col-sm-6 col-md-4">
                                     <div class=" js-input">
                                         <label for="text">Airline Rewards Code 3</label>
-                                        <input type="text" id="rewards3" onkeyup="verificarDatos(event);">
+                                        <input type="text" id="rewards3" >
                                     </div>
                                 </div>
                                 <!-- <div class="col-xs col-sm-6 col-md-4">
                                     <div class=" js-input">
                                         <label for="text">Confirmation</label>
-                                        <input type="text" id="confirmation" onkeyup="verificarDatos(event);">
+                                        <input type="text" id="confirmation" >
                                     </div>
                                 </div>
                                 <div class="col-xs col-sm-6 col-md-4">
@@ -615,25 +615,25 @@
                                 <div class="col-xs col-sm-6 col-md-4">
                                     <div class="js-input">
                                         <label for="text">Contact Name</label>
-                                        <input type="text" id="contact" onkeyup="verificarDatos(event);">
+                                        <input type="text" id="contact" >
                                     </div>
                                 </div>
                                 <div class="col-xs col-sm-6 col-md-4">
                                     <div class="js-input">
                                         <label for="text">Contact Phone Number</label>
-                                        <input type="text" id="phone" onkeyup="verificarDatos(event);">
+                                        <input type="text" id="phone" >
                                     </div>
                                 </div>
                                 <div class="col-xs col-sm-6 col-md-4">
                                     <div class="js-input">
                                         <label for="text">Their relationship to you</label>
-                                        <input type="text" id="relationship" onkeyup="verificarDatos(event);">
+                                        <input type="text" id="relationship" >
                                     </div>
                                 </div>
                                 <div class="col">
                                     <div class="js-input">
                                         <label for="text">Additional Specifications (i.e.: Special diet, extra leg room needed, etc)</label>
-                                        <input type="text" id="specifications" onkeyup="verificarDatos(event);">
+                                        <input type="text" id="specifications" >
                                     </div>
                                 </div>
                             </div> 
@@ -668,7 +668,7 @@
                                 <i class="mdi mdi-email"></i>
                             </div>
                             <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                                <input class="mdl-textfield__input" type="text" id="correo" maxlength="50" onkeyup="verificarDatos(event);">
+                                <input class="mdl-textfield__input" type="text" id="correo" maxlength="50" >
                                 <label class="mdl-textfield__label" for="correo">Email</label>
                                 <span class="mdl-textfield__error">Invalid email</span>
                             </div>
