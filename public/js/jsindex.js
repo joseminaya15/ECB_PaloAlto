@@ -293,3 +293,23 @@ function validateEmail(email){
     var re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
     return re.test(email);
 }
+var $win = $(window);
+$win.scroll(function () {
+	if ($win.scrollTop() > 45) {
+		$("nav").addClass("navbarcolor");
+	} else {
+		$("nav").removeClass("navbarcolor");
+	}
+});
+$('a.link[href^="#"]').click(function(e) {
+ 	var target = $(this).attr('href');
+ 	var strip = target.slice(1);
+ 	var anchor = $("section[id='" + strip + "']");
+ 	e.preventDefault();
+ 	y = (anchor.offset() || {
+ 		"top" : NaN
+ 	}).top;
+ 	$('html, body').animate({
+ 		scrollTop : y
+ 	}, 'slow');
+});
