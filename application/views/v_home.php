@@ -411,8 +411,16 @@
                                 </div>
                                 <div class="col-xs col-sm-6 col-md-4">
                                     <div class="js-input">
-                                        
-
+                                        <label>Do you require a visa invitation letter?</label>
+                                        </br>
+                                        <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-1">
+                                          <input type="radio" id="option-1" class="mdl-radio__button" name="options" value="1" checked>
+                                          <span class="mdl-radio__label">Sí</span>
+                                        </label>
+                                        <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-2">
+                                          <input type="radio" id="option-2" class="mdl-radio__button" name="options" value="2">
+                                          <span class="mdl-radio__label">No</span>
+                                        </label>
                                     </div>
                                 </div>
                                 <div class="col-xs col-sm-6 col-md-4">
