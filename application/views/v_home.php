@@ -57,9 +57,19 @@
             </div>
         </div>
     </section>
-    <section id="home" class="js-section">
+    <section id="home" class="js-section js-white">
         <div class="js-container">
             <h2 class="js-title">Home</h2>
+            <div class="js-information">
+                <h2>Welcome&#33;</h2>
+                <p>On behalf of Hewlett Packard Enterprise and Intel® we are pleased to invite you to the <strong>"Hybrid IT Latin American Executive Briefing"</strong> to be held at HPE Executive Briefing Center on May 28-31, 2018.</p>
+                <p>The HPE Executive Briefing Center is located in Palo Alto California; it has a modern infrastructure including conference centers and solution laboratories within headquarters. During the visit, senior executives and industry experts will share their knowledge and experience to help you identify the best solutions to their technology needs.</p>
+                <p>This event gives us the scenario to share HPE´s vision and strategy, as well as present the benefits of the products and services for Data Centers, Hybrid Infrastructure and Connectivity. We have lecturers from the laboratories, Hewlett Packard Enterprise specialists, and we've programmed some of our most brilliant presenters and experts to share our insights with this select group of executives from Latin America.</p>
+                <p>On the agenda, we will focus on topics aimed at guiding our clients, who want to implement solutions in the cloud - both public and private - the benefits and challenges of having a hybrid infrastructure and a route plan that best suits their needs. In addition to infrastructure solutions, we have technological services to support you to achieve an innovative and successful implementation that becomes the common factor of technology projects in your company.</p>
+                <p>Included within the academic activities are interesting visits to the center of solutions and demonstrations which will change their perspective of the new technologies.</p>
+                <p>We are sure that you will take this opportunity to interact with senior executives from other companies that will join you in this visit.</p>
+                <p>Intel and the Intel logo are trademarks of Intel Corporation in the United States. And/or other countries.</p>
+            </div>
         </div>
     </section>
     <section id="hotel" class="js-section">

@@ -114,6 +114,8 @@ strong
 .js-section
 	position relative
 	padding 40px 20px
+.js-white
+	background-color #FFFFFF
 .js-title
 	text-align center
 	font-size 32px
@@ -270,9 +272,16 @@ strong
 /*BOOTSTRAP4*/
 .navbar
 	position fixed
+	width 100%
+	background-color #000000
 .navbar-brand
 	img
 		max-width 200px
+.navbar-light 
+	.navbar-nav 
+		.nav-link
+			font-size 18px
+			color #FFFFFF
 /*CLASES PROYECTO*/
 .js-contenido
 	text-align center
@@ -284,6 +293,11 @@ strong
 		font-family $bold
 	p
 		font-size 32px
+.js-information
+	p
+		font-size 16px
+		line-height 20px
+		margin 15px 0
 .js-information__left
 	flexCenter()
 	justify-content flex-start
@@ -327,4 +341,8 @@ strong
 ::-webkit-scrollbar-thumb
 	background-color #AAAAAA
 	border-radius 10px
+@media (min-width: 768px)
+	.navbar
+		background-color transparent
+		
 				
