@@ -28,11 +28,11 @@ function sendInformation(){
 	var checkoutdate 		 = $('#checkoutdate').val();
 	var need 				 = $('#need').val();
 	var departureorigin 	 = $('#departureorigin').val();
-	// var departuredestination = $('#departuredestination').val();
+	var departuredestination = $('#departuredestination').val();//quitado
 	var departuredate 		 = $('#departuredate').val();
 	var departuretime 		 = $('#departuretime').val();
 	var returnorigin 		 = $('#returnorigin').val();
-	// var returndestination 	 = $('#returndestination').val();
+	var returndestination 	 = $('#returndestination').val();
 	var returndate 			 = $('#returndate').val();
 	var returntime 			 = $('#returntime').val();
 	var preference1 		 = $('#preference1').val();
@@ -41,118 +41,118 @@ function sendInformation(){
 	var rewards2 			 = $('#rewards2').val();
 	var preference3 		 = $('#preference3').val();
 	var rewards3 			 = $('#rewards3').val();
-	// var confirmation 		 = $('#confirmation').val();
-	// var modifidate 			 = $('#modifidate').val();
-	// var cancellationdate 	 = $('#cancellationdate').val();
+	var confirmation 		 = $('#confirmation').val();//quitado
+	var modifidate 			 = $('#modifidate').val();//quitado
+	var cancellationdate 	 = $('#cancellationdate').val();//quitado
 	//Emergency Contact
 	var contact 			 = $('#contact').val();
 	var phone 				 = $('#phone').val();
 	var relationship 		 = $('#relationship').val();
 	var specifications 		 = $('#specifications').val();
 	//Business
-	if(firstname == null) {
+	if(firstname == null || firstname == '') {
 		msj('error', 'First name must be completed');
 		return;
 	}
-	if(middlename == null) {
+	if(middlename == null || middlename == '') {
 		msj('error', 'Middle name must be completed');
 		return;
 	}
-	if(lastname == null) {
+	if(lastname == null || lastname == '') {
 		msj('error', 'Last name must be completed');
 		return;
 	}
-	if(company == null) {
+	if(company == null || company == '') {
 		msj('error', 'Company must be completed');
 		return;
 	}
-	if(job == null) {
+	if(job == null || job == '') {
 		msj('error', 'Job title must be completed');
 		return;
 	}
-	if(mobile == null) {
+	if(mobile == null || mobile == '') {
 		msj('error', 'Mobile phone number must be completed');
 		return;
 	}
-	if(email == null) {
+	if(email == null || email == '') {
 		msj('error', 'Email must be completed');
 		return;
 	}
-	if(city == null) {
+	if(city == null || city == '') {
 		msj('error', 'City must be completed');
 		return;
 	}
-	if(country == null) {
+	if(country == null || country == '') {
 		msj('error', 'Country must be completed');
 		return;
 	}
 	//Personal
-	if(passport == null) {
+	if(passport == null || passport == '') {
 		msj('error', 'Passport number must be completed');
 		return;
 	}
-	if(issuedate == null) {
+	if(issuedate == null || issuedate == '') {
 		msj('error', 'Issue date must be completed');
 		return;
 	}
-	if(expiredate == null) {
+	if(expiredate == null || expiredate == '') {
 		msj('error', 'Expire date must be completed');
 		return;
 	}
-	if(issuecountry == null) {
+	if(issuecountry == null || issuecountry == '') {
 		msj('error', 'Issue country must be completed');
 		return;
 	}
-	if(gender == null) {
+	if(gender == null || gender == '') {
 		msj('error', 'Gender must be completed');
 		return;
 	}
-	if(birthdate == null) {
+	if(birthdate == null || birthdate == '') {
 		msj('error', 'Date of birth must be completed');
 		return;
 	}
-	if(nationality == null) {
+	if(nationality == null || nationality == '') {
 		msj('error', 'Nacionality must be completed');
 		return;
 	}
-	if(residence == null) {
+	if(residence == null || residence == '') {
 		msj('error', 'Residence must be completed');
 		return;
 	}
-	if(inputRadio = null) {
+	if(inputRadio = null || inputRadio = '') {
 		msj('error', 'Invitation must be completed');
 		return;
 	}
-	if(seating == null) {
+	if(seating == null || seating == '') {
 		msj('error', 'Seating must be completed');
 		return;
 	}
-	if(shirt == null) {
+	if(shirt == null || shirt == '') {
 		msj('error', 'T-shirt must be completed');
 		return;
 	}
 	//Itinerary
-	if(acknowledgement == null) {
+	if(acknowledgement == null || acknowledgement == '') {
 		msj('error', 'Name acknowledgement must be completed');
 		return;
 	}
-	if(restrictions == null) {
+	if(restrictions == null || restrictions == '') {
 		msj('error', 'Dietary restrictions must be completed');
 		return;
 	}
-	if(checkindate == null) {
+	if(checkindate == null || checkindate == '') {
 		msj('error', 'Check-in must be completed');
 		return;
 	}
-	if(checkoutdate == null) {
+	if(checkoutdate == null || checkoutdate == '') {
 		msj('error', 'Check-out must be completed');
 		return;
 	}
-	if(need == null) {
+	if(need == null || need == '') {
 		msj('error', 'Special needs must be completed');
 		return;
 	}
-	if(departureorigin == null) {
+	if(departureorigin == null || departureorigin == '') {
 		msj('error', 'Departure flight origin must be completed');
 		return;
 	}
@@ -160,15 +160,15 @@ function sendInformation(){
 	// 	msj('error', 'Departure flight destination must be completed');
 	// 	return;
 	// }
-	if(departuredate == null) {
+	if(departuredate == null || departuredate == '') {
 		msj('error', 'Departure date must be completed');
 		return;
 	}
-	if(departuretime == null) {
+	if(departuretime == null || departuretime == '') {
 		msj('error', 'Departure time must be completed');
 		return;
 	}
-	if(returnorigin == null) {
+	if(returnorigin == null || returnorigin == '') {
 		msj('error', 'Return flight origin must be completed');
 		return;
 	}
@@ -176,11 +176,11 @@ function sendInformation(){
 	// 	msj('error', 'Return flight destination must be completed');
 	// 	return;
 	// }
-	if(returndate == null) {
+	if(returndate == null || returndate == '') {
 		msj('error', 'Return date must be completed');
 		return;
 	}
-	if(returntime == null) {
+	if(returntime == null || returntime == '') {
 		msj('error', 'Return time must be completed');
 		return;
 	}
@@ -188,19 +188,19 @@ function sendInformation(){
 	//CONTINUA AQUI
 
 	//Contacto emergencia
-	if(contact == null) {
+	if(contact == null || contact == '') {
 		msj('error', 'Contact name must be completed');
 		return;
 	}
-	if(phone == null) {
+	if(phone == null || phone == '') {
 		msj('error', 'Contact phone number must be completed');
 		return;
 	}
-	if(relationship == null) {
+	if(relationship == null || relationship == '') {
 		msj('error', 'relationship must be completed');
 		return;
 	}
-
+	return;
 	$.ajax({
 		data : {primerNombre	: firstname,
 				segundoNombre	: middlename,
@@ -251,7 +251,7 @@ function sendInformation(){
 				telefonoContac	: phone,
 				relacion		: relationship,
 				especificacion	: specifications },
-		url  : 'registro/register',
+		url  : 'home/register',
 		type : 'POST'
 	}).done(function(data){
 		try {

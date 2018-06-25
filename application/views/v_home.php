@@ -20,7 +20,7 @@
     <link rel="stylesheet"    href="<?php echo RUTA_FONTS?>material-icons.css?v=<?php echo time();?>">
     <link rel="stylesheet"    href="<?php echo RUTA_FONTS?>metric.css?v=<?php echo time();?>">
     <link rel="stylesheet"    href="<?php echo RUTA_CSS?>m-p.min.css?v=<?php echo time();?>">
-    <link rel="stylesheet"    href="<?php echo RUTA_CSS?>index.css?v=<?php echo time();?>">
+    <!-- <link rel="stylesheet"    href="<?php echo RUTA_CSS?>index.css?v=<?php echo time();?>"> -->
     <link rel="stylesheet"    href="<?php echo RUTA_CSS?>style.css?v=<?php echo time();?>">
 </head>
 <body>
@@ -43,9 +43,9 @@
         <div class="js-fondo"></div>
         <div class="js-container">
             <div class="js-home js-height js-flex">
-                <div class="logo-home">
+                <!-- <div class="logo-home">
                     <img src="<?php echo RUTA_IMG?>logo/logo_blanco.png">
-                </div>
+                </div> -->
                 <div class="js-contenido">
                     <h2>HPE Caribbean Executive Briefing</h2>
                     <p>July 24th to 26th, 2018</p>
@@ -1008,7 +1008,7 @@
             <div class="modal-content">
                 <div class="mdl-card mdl-card-login">
                     <div class="mdl-card__supporting-text">
-                        <img class="logo" src="<?php echo RUTA_IMG;?>logo/logo-home.png">
+                        <!-- <img class="logo" src="<?php echo RUTA_IMG;?>logo/logo-home.png"> -->
                         <div class="event">
                             <h2>Your feedback is important!</h2>
                             <p>Please share with us your experience at the 2018 Bootcamp.</p>
@@ -1041,8 +1041,9 @@
     <script src="<?php echo RUTA_PLUGINS?>bootstrap-select/js/i18n/defaults-es_ES.min.js?v=<?php echo time();?>"></script>
     <script src="<?php echo RUTA_PLUGINS?>mdl/material.min.js?v=<?php echo time();?>"></script>
     <script src="<?php echo RUTA_PLUGINS?>toaster/toastr.js?v=<?php echo time();?>"></script>
-    <script src="<?php echo RUTA_JS?>jsmenu.js?v=<?php echo time();?>"></script>
+    <!-- <script src="<?php echo RUTA_JS?>jsmenu.js?v=<?php echo time();?>"></script> -->
     <script src="<?php echo RUTA_JS?>jsindex.js?v=<?php echo time();?>"></script>
+    <script src="<?php echo RUTA_JS?>Utils.js?v=<?php echo time();?>"></script>
     <script type="text/javascript">
         if( /Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent) ) {
             $('select').selectpicker('mobile');
