@@ -41,7 +41,7 @@
             </div>
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
-                    <li class="nav-item active"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item active"><a class="link" href="#home">Home</a></li>
                     <li class="nav-item"><a class="link" href="#hotel">Hotel Information</a></li>
                     <li class="nav-item"><a class="link" href="#agenda">Agenda</a></li>
                     <li class="nav-item"><a class="link" href="#visa">Visa Information</a></li>
@@ -275,7 +275,7 @@
     <section id="register" class="js-section js-white">
         <div class="js-container">
             <div class="js-title">
-                <h2>Register</h2>
+                <h2>REGISTER</h2>
             </div>
             <div class="panel-group" id="accordion" role="tablist">
                 <div class="js-card panel panel-default">
