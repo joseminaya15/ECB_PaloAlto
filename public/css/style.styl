@@ -279,6 +279,8 @@ strong
 /*BOOTSTRAP4*/
 .navbar-default
 	transitionAll()
+	margin 0
+	padding 10px
 	border none
 	border-radius 0
 	position fixed
@@ -292,7 +294,9 @@ strong
 				font-size 18px
 				background-color transparent !important
 .navbar-brand
+	padding 0
 	img
+		transitionMaxWidth()
 		max-width 200px
 .nav-tabs
 	border none
@@ -379,5 +383,11 @@ table
 		background-color transparent
 		&.navbarcolor
 			background-color #000000
+			.navbar-brand
+				img
+					max-width 200px
+	.navbar-brand
+		img
+			max-width 250px
 		
 				
