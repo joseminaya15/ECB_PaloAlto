@@ -210,6 +210,12 @@
                                         </div>
                                     </div>
                                     <div class="col-xs col-sm-6 col-md-4">
+                                        <div class=" js-input">
+                                            <label for="text">Special Needs</label>
+                                            <input type="text" id="need" onkeyup="verificarDatos(event);">
+                                        </div>
+                                    </div>
+                                    <div class="col-xs col-sm-6 col-md-4">
                                         <div class="js-input js-date js-flex">
                                             <input class="js-disabled" type="text" id="checkindate" name="checkindate" maxlength="10" placeholder="Check-In date" value="" style="pointer-events: none">
                                             <div class="js-icon">
@@ -230,10 +236,7 @@
                                         </div>
                                     </div>
                                     <div class="col-xs col-sm-6 col-md-4">
-                                        <div class=" js-input">
-                                            <label for="text">Special Needs</label>
-                                            <input type="text" id="need" onkeyup="verificarDatos(event);">
-                                        </div>
+                                         
                                     </div>
                                     <div class="col-xs col-sm-6 col-md-4">
                                          <div class=" js-input">
@@ -241,12 +244,12 @@
                                             <input type="text" id="departureorigin" onkeyup="verificarDatos(event);">
                                         </div>
                                     </div>
-                                    <div class="col-xs col-sm-6 col-md-4">
+                                    <!-- <div class="col-xs col-sm-6 col-md-4" style="display:none">
                                         <div class=" js-input">
                                             <label for="text">Departure Flight Destination</label>
                                             <input type="text" id="departuredestination" onkeyup="verificarDatos(event);">
                                         </div>
-                                    </div>
+                                    </div> -->
                                     <div class="col-xs col-sm-6 col-md-4">
                                         <div class="js-input js-date js-flex">
                                             <input class="js-disabled" type="text" id="departuredate" name="departuredate" maxlength="10" placeholder="Departure Flight Date" value="" style="pointer-events: none">
@@ -273,12 +276,12 @@
                                             <input type="text" id="returnorigin" onkeyup="verificarDatos(event);">
                                         </div>
                                     </div>
-                                    <div class="col-xs col-sm-6 col-md-4">
+                                    <!-- <div class="col-xs col-sm-6 col-md-4" style="display:none">
                                         <div class=" js-input">
                                             <label for="text">Return Flight Destination</label>
                                             <input type="text" id="returndestination" onkeyup="verificarDatos(event);">
                                         </div>
-                                    </div>
+                                    </div> -->
                                     <div class="col-xs col-sm-6 col-md-4">
                                         <div class="js-input js-date js-flex">
                                             <input class="js-disabled" type="text" id="returndate" name="returndate" maxlength="10" placeholder="Return Flight Date" value="" style="pointer-events: none">
@@ -312,6 +315,9 @@
                                         </div>
                                     </div>
                                     <div class="col-xs col-sm-6 col-md-4">
+                                        
+                                    </div>
+                                    <div class="col-xs col-sm-6 col-md-4">
                                         <div class=" js-input">
                                             <label for="text">Airline Preference 2</label>
                                             <input type="text" id="preference2" onkeyup="verificarDatos(event);">
@@ -322,6 +328,9 @@
                                             <label for="text">Airline Rewards Code 2</label>
                                             <input type="text" id="rewards2" onkeyup="verificarDatos(event);">
                                         </div>
+                                    </div>
+                                    <div class="col-xs col-sm-6 col-md-4">
+                                        
                                     </div>
                                     <div class="col-xs col-sm-6 col-md-4">
                                         <div class=" js-input">
@@ -335,7 +344,7 @@
                                             <input type="text" id="rewards3" onkeyup="verificarDatos(event);">
                                         </div>
                                     </div>
-                                    <div class="col-xs col-sm-6 col-md-4">
+                                    <!-- <div class="col-xs col-sm-6 col-md-4">
                                         <div class=" js-input">
                                             <label for="text">Confirmation</label>
                                             <input type="text" id="confirmation" onkeyup="verificarDatos(event);">
@@ -360,7 +369,7 @@
                                                 </button>
                                             </div>
                                         </div>
-                                    </div>
+                                    </div> -->
                                 </div>
                             </div>
                         </div>

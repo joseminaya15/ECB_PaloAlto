@@ -15,8 +15,8 @@ class M_solicitud extends  CI_Model{
         return array("error" => EXIT_SUCCESS, "msj" => MSJ_INS, "id_negocio" => $sql);
     }
 
-    function insertarDemasDatos($insertPeresona, $tabla1, $insertItinerario, $tabla2, $insertContacto, $tabla3){
-    	$this->db->insert($tabla1, $insertPeresona);
+    function insertarDemasDatos($insertPersona, $tabla1, $insertItinerario, $tabla2, $insertContacto, $tabla3){
+    	$this->db->insert($tabla1, $insertPersona);
         $sql = $this->db->insert_id();
         if($this->db->affected_rows() != 1) {
             throw new Exception('Error al insertar');

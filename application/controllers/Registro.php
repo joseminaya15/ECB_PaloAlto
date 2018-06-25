@@ -15,7 +15,7 @@ class Registro extends CI_Controller{
 
 	public function index(){
 
-		$this->load->view('v_home');
+		$this->load->view('v_register');
 	}
 
 	function registro() {
@@ -45,15 +45,87 @@ class Registro extends CI_Controller{
 			$asientoPrefere = $this->input->post();
 			$tallaPolo 		= $this->input->post();
 			//tabla itinerario
-			$primerNombre = $this->input->post();
-			$primerNombre = $this->input->post();
-			$primerNombre = $this->input->post();
-			$primerNombre = $this->input->post();
-			$primerNombre = $this->input->post();
-			$primerNombre = $this->input->post();
-			$primerNombre = $this->input->post();
-			$primerNombre = $this->input->post();
-			$primerNombre = $this->input->post();
+			$reconocimiento   = $this->input->post();
+			$restriccionDieta = $this->input->post();
+			$checkInDate 	  = $this->input->post();
+			$checkOutDate	  = $this->input->post();
+			$necesidadEspe    = $this->input->post();
+			$origenPartida    = $this->input->post();
+			$destinoPartida   = $this->input->post();
+			$diaVueloOrigen   = $this->input->post();
+			$HoraVueloOrigen  = $this->input->post();
+			$origenRetorno    = $this->input->post();
+			$destinoRetorno   = $this->input->post();
+			$diaVueloRetorno  = $this->input->post();
+			$HoraVueloRetorno = $this->input->post();
+			$aerolinea1		  = $this->input->post();
+			$codigoAero1 	  = $this->input->post();
+			$aerolinea2	 	  = $this->input->post();
+			$codigoAero2 	  = $this->input->post();
+			$aerolinea3 	  = $this->input->post();
+			$codigoAero3 	  = $this->input->post();
+			$confirmacion 	  = $this->input->post();
+			$ultimoDiaModifica= $this->input->post();
+			$ultimoDiaCancela = $this->input->post();
+			//Tabla Contacto Emergencia
+			$nombreContacto = $this->input->post();
+			$telefonoContac = $this->input->post();
+			$relacion 		= $this->input->post();
+			$especificacion = $this->input->post();
+
+			$insertNegocio = array('primer_nombre' 	=> $primerNombre,
+								   'segundo_nombre' => $segundoNombre,
+								   'apellidos' 		=> $apellidos,
+								   'empresa' 		=> $empresa,
+								   'cargo' 			=> $cargo,
+								   'telefono' 		=> $telefono,
+								   'correo' 		=> $correo,
+								   'ciudad' 		=> $ciudad,
+								   'pais' 			=> $pais);
+			$datoInsert  = $this->M_solicitud->insertarDatos($insertNegocio, 'negocio');
+			$insertPersona = array('nu_pasaporte' 		=> $nuPasaporte,
+								   'fecha_emision'		=> $fechaEmision,
+								   'fecha_expiro'		=> $fechaExpiro,
+								   'pais_emisor'		=> $paisEmisor,
+								   'genero'				=> $genero,
+								   'fecha_cumple'		=> $fechaCumple,
+								   'nacionalidad'		=> $nacionalidad,
+								   'ciudad_referencia'	=> $ciudadReferen,
+								   'flg_invitacion'		=> $flgInvitacion,
+								   'asiento_preferencia'=> $asientoPrefere,
+								   'talla_polo'			=> $tallaPolo,
+								   '_id_negocio'		=> $datoInsert['id_negocio']);
+			$insertItinerario = array('nombre_reconocimiento' => $reconocimiento,
+									 'restriccion_dieta' 	  => $restriccionDieta,
+									 'fecha_check_in' 		  => $checkInDate,
+									 'fecha_check_out'		  => $checkOutDate,
+									 'necesidad_especial' 	  => $necesidadEspe,
+									 'vuelo_ida_origen' 	  => $origenPartida,
+									 'vuelo_ida_destino' 	  => $destinoPartida,
+									 'dia_vuelo_ida' 		  => $diaVueloOrigen,
+									 'hora_vuelo_ida' 		  => $HoraVueloOrigen,
+									 'vuelo_retorno_origen'   => $origenRetorno,
+									 'vuelo_retorno_destino'  => $destinoRetorno,
+									 'dia_vuelo_retorno' 	  => $diaVueloRetorno,
+									 'hora_vuelo_retorno'  	  => $HoraVueloRetorno,
+									 'aerolinea1' 		  	  => $aerolinea1,
+									 'codigo_aero_1' 		  => $codigoAero1,
+									 'aerolinea2' 		  	  => $aerolinea2,
+									 'codigo_aero_2' 		  => $codigoAero2,
+									 'aerolinea3' 		  	  => $aerolinea3,
+									 'codigo_aero_3' 		  => $codigoAero3,
+									 'confirmacion' 		  => $confirmacion,
+									 'ultima_dia_modificacion'=> $ultimoDiaModifica,
+									 'ultimo_dia_cancela' 	  => $ultimoDiaCancela,
+									 '_id_negocio' 			  => $datoInsert['id_negocio']);
+			$insertContacto = array('nombre' 	 => $nombreContacto, 
+									'telefono' 	 => $telefonoContac,
+									'relacion' 	 => $relacion,
+									'adicional'  => $especificacion,
+									'_id_negocio'=> $datoInsert['id_negocio']);
+			$this->M_solicitud->insertarDemasDatos($insertPersona, 'persona', $insertItinerario, 'itinerario', $insertContacto, 'contacto_emergencia');
+          $data['msj']   = $datoInsert['msj'];
+          $data['error'] = $datoInsert['error'];
 		} catch(Exception $ex) {
 			$data['msj'] = $ex->getMessage();
 		}
