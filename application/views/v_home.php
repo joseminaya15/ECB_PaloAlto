@@ -88,10 +88,10 @@
                         <div class="js-information__left--imagen"></div>
                     </div>
                     <div class="js-information__right">
-                        <h2>Hotel Valencia Santana Row</h2><br>
-                        <font>355 Santana Row</font><br>
-                        <font>San Jose, CA 95128</font><br>
-                        <font>USA</font><br>
+                        <h2>Hotel Valencia Santana Row</h2>
+                        <p>355 Santana Row</p>
+                        <p>San Jose, CA 95128</p>
+                        <p>USA</p>
                         <a href="tel:+14085510010">Tel. +1 408 551 0010</a><br>
                         <a href="https://www.hotelvalencia-santanarow.com/" target="_blank">WebSite</a>
                     </div>
