@@ -82,20 +82,18 @@
     <section id="hotel" class="js-section">
         <div class="js-container">
             <h2 class="js-title">HOTEL INFORMATION</h2>
-            <div class="js-information"><br>
-                <h2>Welcome to San Jose</h2>
-                <p>Explore northern California from Hyatt Place San Jose/Downtown. This hotel is walking distance from the train station and around the corner from major thoroughfares. Business travelers are minutes from companies and convention centers while families are just miles from shopping on Santana Row or campus tours of Stanford.</p>
+            <div class="js-information">
                 <div class="js-flex--start">
                     <div class="js-information__left">
                         <div class="js-information__left--imagen"></div>
                     </div>
                     <div class="js-information__right">
-                        <h2>Hyatt Place San Jose/Downtown</h2><br>
-                        <font>282 Almaden Boulevard</font><br>
-                        <font>San Jose, California, 95113</font><br>
+                        <h2>Hotel Valencia Santana Row</h2><br>
+                        <font>355 Santana Row</font><br>
+                        <font>San Jose, CA 95128</font><br>
                         <font>USA</font><br>
-                        <a href="tel:+14089980400">Tel. +1 408 998 0400</a><br>
-                        <a href="https://sanjose.place.hyatt.com/en/hotel/home.html" target="_blank">WebSite</a>
+                        <a href="tel:+14085510010">Tel. +1 408 551 0010</a><br>
+                        <a href="https://www.hotelvalencia-santanarow.com/" target="_blank">WebSite</a>
                     </div>
                 </div>
             </div>
