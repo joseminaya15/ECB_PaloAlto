@@ -21,7 +21,6 @@ class Admin extends CI_Controller {
         $cont  = 1;
         if(count($datos) == 0) {
             $html = '';
-            return $html;
         }else {
             foreach ($datos as $key){
                 $html .= '<tr class="tr-cursor-pointer tr-ver-info-solicitud" data-idSolicitud="'.$cont.'">
