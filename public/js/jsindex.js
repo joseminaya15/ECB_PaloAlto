@@ -268,6 +268,8 @@ function sendInformation(){
 			data = JSON.parse(data);
 			if(data.error == 0){
 				$('.js-input').find('input').val('');
+				$('.js-select').find('select').val('0');
+				$('.js-select').refresh();
         	}else{
         		return;
         	}
