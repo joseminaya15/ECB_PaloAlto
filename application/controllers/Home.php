@@ -85,7 +85,8 @@ class Home extends CI_Controller {
 								   'telefono' 		=> $telefono,
 								   'correo' 		=> $correo,
 								   'ciudad' 		=> $ciudad,
-								   'pais' 			=> $pais);
+								   'pais' 			=> $pais,
+								   'fecha_registro' => date("Y-m-d"));
 			$datoInsert  = $this->M_Solicitud->insertarDatos($insertNegocio, 'negocio');
 			$insertPersona = array('nu_pasaporte' 		=> $nuPasaporte,
 								   'fecha_emision'		=> $fechaEmision,

@@ -519,7 +519,7 @@
                                     <div class="js-input js-select">
                                         <select name="departuretime" id="departuretime" title="Departure Flight Time"> 
                                             <option value="morning">Morning</option>
-                                            <option value="afternon">Afternon</option>
+                                            <option value="afternoon">Afternon</option>
                                             <option value="evening">Evening</option>
                                         </select>
                                     </div>
