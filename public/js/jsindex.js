@@ -1,6 +1,6 @@
 function sendInformation(){
 	//Business
-	var check_invi 			 = '';
+	var check_invi 			 = null;
 	var firstname 			 = $('#firstname').val();
 	var middlename 			 = $('#middlename').val();
 	var lastname 			 = $('#lastname').val();
@@ -131,7 +131,7 @@ function sendInformation(){
 		return;
 	}
 	//poner
-	if(check_invi == null || check_invi == '') {
+	if(check_invi == null) {
 		msj('error', 'Invitation must be completed');
 		return;
 	}
