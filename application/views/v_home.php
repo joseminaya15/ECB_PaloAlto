@@ -516,7 +516,7 @@
                                     </div>
                                 </div>
                                 <div class="col-xs-12 col-sm-6 col-md-4">
-                                    <div class="js-input js-date js-flex">
+                                    <div class="js-input js-select">
                                         <select name="departuretime" id="departuretime" title="Departure Flight Time"> 
                                             <option value="morning">Morning</option>
                                             <option value="afternon">Afternon</option>
@@ -547,7 +547,7 @@
                                     </div>
                                 </div>
                                 <div class="col-xs-12 col-sm-6 col-md-4">
-                                    <div class="js-input js-date js-flex">
+                                    <div class="js-input js-select">
                                         <select name="returntime" id="returntime" title="Return Flight Time"> 
                                             <option value="morning">Morning</option>
                                             <option value="afternon">Afternon</option>
