@@ -14,6 +14,42 @@ function clonarFecha(inputNew,idButton) {
 		$("#"+idButton).trigger("change");
 	}
 }
+function initCalendarDays(id, currentDate){
+	var startDate = new Date();
+	 if (currentDate != undefined) {
+            var startDate = new Date(currentDate);
+        }
+	$("#"+id).bootstrapMaterialDatePicker({ 
+		weekStart : 0, 
+		date	: true, 
+		time	: false,
+		currentDate : startDate,
+		format 	: 'DD/MM/YYYY'
+	});
+}
+function initButtonCalendarDays(idButton, currentDate) {
+	var text 		= idButton;
+	var id 			= $("#"+text);
+	var newInput	= null;
+	var iconButton 	= id.closest('.js-input').find('.js-icon');
+	iconButton.find('.mdl-button').click(function(){
+		newInput = text+'ForCalendar';
+		if ( $('#'+newInput).length < 1 ) {
+			$('<input>').attr({
+			    type		: 'text',
+			    id			: newInput,
+			    name		: newInput,
+			    'data-time'	: text,
+			    onchange 	: 'clonarFecha($(this))',
+			    style		: 'position: absolute; top: 40px; border: transparent; color: transparent; z-index: -4'
+			}).appendTo(iconButton);
+			initCalendarDays(newInput, currentDate);
+		}
+		$("#"+newInput).focus();			
+	});		
+	var valueNewInput = $("#"+newInput).val();   
+	id.text(valueNewInput);
+}
 function initCalendarDaysMinToday(id, currentDate, fecha){
 	var startDate = new Date();
 	 if (currentDate != undefined) {

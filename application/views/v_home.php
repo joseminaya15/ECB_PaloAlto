@@ -714,9 +714,9 @@
     <script src="<?php echo RUTA_JS?>jsindex.js?v=<?php echo time();?>"></script>
     <script src="<?php echo RUTA_JS?>Utils.js?v=<?php echo time();?>"></script>
     <script type="text/javascript">
-        initButtonCalendarDaysMinToday('issuedate');
-        initButtonCalendarDaysMinToday('expiredate');
-        initButtonCalendarDaysMinToday('birthdate');
+        initButtonCalendarDays('issuedate');
+        initButtonCalendarDays('expiredate');
+        initButtonCalendarDays('birthdate');
         initButtonCalendarDaysMinToday('checkindate');
         initButtonCalendarDaysMinToday('checkoutdate');
         initButtonCalendarDaysMinToday('departuredate');
