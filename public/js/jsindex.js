@@ -1,6 +1,6 @@
 function sendInformation(){
 	//Business
-	var check_invi 			 = '';
+	var check_invi 			 = null;
 	var firstname 			 = $('#firstname').val();
 	var middlename 			 = $('#middlename').val();
 	var lastname 			 = $('#lastname').val();
@@ -19,10 +19,11 @@ function sendInformation(){
 	var birthdate 			 = $('#birthdate').val();
 	var nationality 		 = $('#nationality').val();
 	var residence 			 = $('#residence').val();
-	var inputRadio			 = $('#option-1').is(':checked');
-	if(inputRadio == true){
+	var option1 			 = $('#option-1').is(':checked');
+	var option2				 = $('#option-2').is(':checked');
+	if(option1 == true){
 		check_invi = 1;
-	}else {
+	}else if(option2 == true) {
 		check_invi = 0;
 	}
 	var seating 			 = $('#seating').val();
@@ -130,7 +131,7 @@ function sendInformation(){
 		return;
 	}
 	//poner
-	if(check_invi == null || check_invi == '') {
+	if(check_invi == null) {
 		msj('error', 'Invitation must be completed');
 		return;
 	}
@@ -267,6 +268,8 @@ function sendInformation(){
 			data = JSON.parse(data);
 			if(data.error == 0){
 				$('.js-input').find('input').val('');
+				$('.js-select').find('select').val('0');
+				$('.js-select').refresh();
         	}else{
         		return;
         	}
