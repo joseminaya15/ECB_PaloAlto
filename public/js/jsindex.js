@@ -269,7 +269,7 @@ function sendInformation(){
 			if(data.error == 0){
 				$('.js-input').find('input').val('');
 				$('.js-select').find('select').val('0');
-				$('.js-select').refresh();
+				$('.js-select').find('select').selectpicker('refresh');
         	}else{
         		return;
         	}
