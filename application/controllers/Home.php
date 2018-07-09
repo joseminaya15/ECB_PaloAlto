@@ -56,8 +56,6 @@ class Home extends CI_Controller {
 			$diaVueloOrigen   = implode("-", array_reverse(explode("/", $this->input->post('diaVueloOrigen'))));
 			$HoraVueloOrigen  = $this->input->post('HoraVueloOrigen');
 
-			/*print_r($HoraVueloOrigen);
-			exit;*/
 			$origenRetorno    = $this->input->post('origenRetorno');
 			$destinoRetorno   = $this->input->post('destinoRetorno');
 			$diaVueloRetorno  = implode("-", array_reverse(explode("/", $this->input->post('diaVueloRetorno'))));
