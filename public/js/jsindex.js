@@ -35,7 +35,7 @@ function sendInformation(){
 	var checkoutdate 		 = $('#checkoutdate').val();
 	var need 				 = $('#need').val();
 	var departureorigin 	 = $('#departureorigin').val();
-	var departuredestination = /*$('#departuredestination').val()*/'';//quitado
+	var departuredestination = /*$('#departuredestination').val()*/'';
 	var departuredate 		 = $('#departuredate').val();
 	var departuretime 		 = $('#departuretime').val();
 	var returnorigin 		 = $('#returnorigin').val();
@@ -48,9 +48,9 @@ function sendInformation(){
 	var rewards2 			 = $('#rewards2').val();
 	var preference3 		 = $('#preference3').val();
 	var rewards3 			 = $('#rewards3').val();
-	var confirmation 		 = /*$('#confirmation').val()*/'';//quitado
-	var modifidate 			 = /*$('#modifidate').val()*/'';//quitado
-	var cancellationdate 	 = /*$('#cancellationdate').val()*/'';//quitado
+	var confirmation 		 = /*$('#confirmation').val()*/'';
+	var modifidate 			 = /*$('#modifidate').val()*/'';
+	var cancellationdate 	 = /*$('#cancellationdate').val()*/'';
 	//Emergency Contact
 	var contact 			 = $('#contact').val();
 	var phone 				 = $('#phone').val();
@@ -196,8 +196,6 @@ function sendInformation(){
 		msj('error', 'Return time must be completed');
 		return;
 	}
-
-	//CONTINUA AQUI
 	//Contacto emergencia
 	if(contact == null || contact == '') {
 		msj('error', 'Contact name must be completed');
