@@ -35,11 +35,11 @@ function sendInformation(){
 	var checkoutdate 		 = $('#checkoutdate').val();
 	var need 				 = $('#need').val();
 	var departureorigin 	 = $('#departureorigin').val();
-	var departuredestination = /*$('#departuredestination').val()*/'aa';//quitado
+	var departuredestination = /*$('#departuredestination').val()*/'';//quitado
 	var departuredate 		 = $('#departuredate').val();
 	var departuretime 		 = $('#departuretime').val();
 	var returnorigin 		 = $('#returnorigin').val();
-	var returndestination 	 = /*$('#returndestination').val()*/'aa';
+	var returndestination 	 = /*$('#returndestination').val()*/'';
 	var returndate 			 = $('#returndate').val();
 	var returntime 			 = $('#returntime').val();
 	var preference1 		 = $('#preference1').val();
@@ -48,9 +48,9 @@ function sendInformation(){
 	var rewards2 			 = $('#rewards2').val();
 	var preference3 		 = $('#preference3').val();
 	var rewards3 			 = $('#rewards3').val();
-	var confirmation 		 = /*$('#confirmation').val()*/'aa';//quitado
-	var modifidate 			 = /*$('#modifidate').val()*/'aa';//quitado
-	var cancellationdate 	 = /*$('#cancellationdate').val()*/'aa';//quitado
+	var confirmation 		 = /*$('#confirmation').val()*/'';//quitado
+	var modifidate 			 = /*$('#modifidate').val()*/'';//quitado
+	var cancellationdate 	 = /*$('#cancellationdate').val()*/'';//quitado
 	//Emergency Contact
 	var contact 			 = $('#contact').val();
 	var phone 				 = $('#phone').val();
