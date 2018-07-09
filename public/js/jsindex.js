@@ -267,6 +267,7 @@ function sendInformation(){
 		try {
 			data = JSON.parse(data);
 			if(data.error == 0){
+				$('#cont_success').css('display', '');
 				$('.js-input').find('input').val('');
 				$('.js-select').find('select').val('0');
 				$('.js-select').find('select').selectpicker('refresh');
@@ -327,3 +328,6 @@ $('a.link[href^="#"]').click(function(e) {
  		scrollTop : (y - 40)
  	}, 'slow');
 });
+function quitarDiv(){
+	$('#cont_success').css('display', 'none');
+}

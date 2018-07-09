@@ -286,19 +286,19 @@
                                 <div class="col-xs-12 col-sm-6 col-md-4">
                                     <div class="js-input">
                                         <label for="text">First Name</label>
-                                        <input type="text" id="firstname" onkeypress="return soloLetras(event);" maxlength="50">
+                                        <input type="text" id="firstname" onkeypress="return soloLetras(event);" maxlength="50" onchange="quitarDiv()">
                                     </div>
                                 </div>
                                 <div class="col-xs-12 col-sm-6 col-md-4">
                                     <div class="js-input">
                                         <label for="text">Middle Name</label>
-                                        <input type="text" id="middlename" onkeypress="return soloLetras(event);" maxlength="50">
+                                        <input type="text" id="middlename" onkeypress="return soloLetras(event);" maxlength="50" onchange="quitarDiv()">
                                     </div>
                                 </div>
                                 <div class="col-xs-12 col-sm-6 col-md-4">
                                     <div class="js-input">
                                         <label for="text">Last Name</label>
-                                        <input type="text" id="lastname" onkeypress="return soloLetras(event);" maxlength="50">
+                                        <input type="text" id="lastname" onkeypress="return soloLetras(event);" maxlength="50" onchange="quitarDiv()">
                                     </div>
                                 </div>
                                 <div class="col-xs-12 col-sm-6 col-md-4">
@@ -660,6 +660,10 @@
             <div class="js-section--button text-right">
                 <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect js-button" onclick="sendInformation()">Send</button>
             </div>
+            <div class="col-xs-12 text-center" style="display: none;margin-top: -40px;" id="cont_success">
+                <h3 style="font-weight: bold;">Thank you for registering!</h3>
+                <p>Your registration was successfully saved</p>
+            </div>
         </div>
     </section>
     <footer class="js-section">
@@ -730,12 +734,12 @@
         } else {
             $('select').selectpicker();
         }
-        $(window).load(function() {
+        /*$(window).load(function() {
             var URLactual = window.location;
             if(URLactual['href'] != 'http://www.marketinghpe.com/microsite/ecb/'){
                 location.href = 'http://www.marketinghpe.com/microsite/ecb/home';
             }
-        }); 
+        }); */
     </script>
 </body>
 </html>
