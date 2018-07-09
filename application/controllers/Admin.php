@@ -44,11 +44,9 @@ class Admin extends CI_Controller {
                             <td class="text-center" style="display: none;">'.$key->fecha_check_out.'</td>
                             <td class="text-center" style="display: none;">'.$key->necesidad_especial.'</td>
                             <td class="text-center" style="display: none;">'.$key->vuelo_ida_origen.'</td>
-                            <td class="text-center" style="display: none;">'.$key->vuelo_ida_destino.'</td>
                             <td class="text-center" style="display: none;">'.$key->dia_vuelo_ida.'</td>
                             <td class="text-center" style="display: none;">'.$key->hora_vuelo_ida.'</td>
                             <td class="text-center" style="display: none;">'.$key->vuelo_retorno_origen.'</td>
-                            <td class="text-center" style="display: none;">'.$key->vuelo_retorno_destino.'</td>
                             <td class="text-center" style="display: none;">'.$key->dia_vuelo_retorno.'</td>
                             <td class="text-center" style="display: none;">'.$key->hora_vuelo_retorno.'</td>
                             <td class="text-center" style="display: none;">'.$key->aerolinea1.'</td>
@@ -57,7 +55,6 @@ class Admin extends CI_Controller {
                             <td class="text-center" style="display: none;">'.$key->codigo_aero_2.'</td>
                             <td class="text-center" style="display: none;">'.$key->aerolinea3.'</td>
                             <td class="text-center" style="display: none;">'.$key->codigo_aero_3.'</td>
-                            <td class="text-center" style="display: none;">'.$key->confirmacion.'</td>
                             <td class="text-center" style="display: none;">'.$key->ultima_dia_modificacion.'</td>
                             <td class="text-center" style="display: none;">'.$key->ultimo_dia_cancela.'</td>
                             <td class="text-center" style="display: none;">'.$key->nombre.'</td>

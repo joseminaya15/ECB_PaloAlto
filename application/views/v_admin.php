@@ -62,11 +62,9 @@
                                 <th class="text-center" style="display: none">Fecha check out</th>
                                 <th class="text-center" style="display: none">Necesidad Especial</th>
                                 <th class="text-center" style="display: none">Vuelo ida origen</th>
-                                <th class="text-center" style="display: none">Vuelo ida destino</th>
                                 <th class="text-center" style="display: none">Día vuelo ida</th>
                                 <th class="text-center" style="display: none">Hora vuelo ida</th>
                                 <th class="text-center" style="display: none">Vuelo Retorno origen</th>
-                                <th class="text-center" style="display: none">Vuelo Retorno destino</th>
                                 <th class="text-center" style="display: none">Día vuelo retorno</th>
                                 <th class="text-center" style="display: none">Hora vuelo retorno</th>
                                 <th class="text-center" style="display: none">Aerolinea 1</th>
@@ -75,7 +73,6 @@
                                 <th class="text-center" style="display: none">Código aereo 2</th>
                                 <th class="text-center" style="display: none">Aerolinea 3</th>
                                 <th class="text-center" style="display: none">Código aereo 3</th>
-                                <th class="text-center" style="display: none">Confirmación</th>
                                 <th class="text-center" style="display: none">Último día modificación</th>
                                 <th class="text-center" style="display: none">Último día cancelación</th>
                                 <th class="text-center" style="display: none">Nombre cont. Emergencia</th>
