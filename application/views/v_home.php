@@ -738,7 +738,7 @@
         $(window).load(function() {
             var URLactual = window.location;
             if(URLactual['href'] != 'http://www.marketinghpe.com/microsite/ecb/'){
-                location.href = 'http://www.marketinghpe.com/microsite/ecb/home';
+                location.href = 'http://www.marketinghpe.com/microsite/ecb/';
             }
         });
     </script>
