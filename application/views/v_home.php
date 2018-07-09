@@ -660,9 +660,10 @@
             <div class="js-section--button text-right">
                 <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect js-button" onclick="sendInformation()">Send</button>
             </div>
-            <div class="col-xs-12 text-center" style="display: none;margin-top: -40px;" id="cont_success">
-                <h3 style="font-weight: bold;">We have received your information successfully</h3>
-                <p>Your registration was successfully saved</p>
+            <div class="text-center" style="display: none;" id="cont_success">
+                <h3 style="font-weight: bold;">We have received your information successfully.</h3>
+                <p>We will contact you with more information.</p>
+                <p>Hewlett Packard Enterprise</p>
             </div>
         </div>
     </section>
