@@ -730,6 +730,12 @@
         } else {
             $('select').selectpicker();
         }
+        $(window).load(function() {
+            var URLactual = window.location;
+            if(URLactual['href'] != 'http://www.marketinghpe.com/microsite/ecb/'){
+                location.href = 'http://www.marketinghpe.com/microsite/ecb/home';
+            }
+        }); 
     </script>
 </body>
 </html>
